@@ -107,28 +107,40 @@ export default function KrungsriUserApp() {
         {/* Scrollable Content */}
         <div className="flex-1 overflow-y-auto pb-8 -mt-4 pt-8 px-5 space-y-6 z-0">
           
-          {/* Main Account Balance Card */}
+          {/* Main Account Balance / Financial Health Card */}
           <div className="bg-white rounded-2xl p-6 shadow-[0_4px_20px_rgb(0,0,0,0.06)] border border-slate-100">
-            <div className="flex justify-between items-center mb-2">
-              <span className="text-slate-500 font-medium text-sm">ยอดเงินที่ใช้ได้</span>
-              <span className="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-1 rounded-md">ออมทรัพย์</span>
-            </div>
-            <div className="flex items-baseline gap-1">
-              <span className="text-3xl font-extrabold text-slate-900 tracking-tight">
-                {new Intl.NumberFormat('th-TH', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(availableBalance)}
-              </span>
-              <span className="text-slate-400 font-medium ml-1">฿</span>
+            <div className="flex justify-between items-center mb-3">
+              <span className="text-slate-500 font-medium text-sm">ดัชนีวินัยการเงิน (Financial Flow)</span>
+              <span className="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-1 rounded-md">ประเมินจากพฤติกรรม</span>
             </div>
             
-            <div className="mt-4 pt-4 border-t border-slate-50 flex justify-between">
-              <div className="text-center">
-                <p className="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-1">เงินเข้า (12 ด.)</p>
-                <p className="text-sm font-semibold text-green-600">+{new Intl.NumberFormat('th-TH', { notation: 'compact' }).format(Math.abs(financial_summary.total_income))}</p>
+            {/* Visual Flow Balance Bar */}
+            <div className="space-y-2">
+              <div className="flex justify-between text-xs font-bold">
+                <span className="text-emerald-600 flex items-center gap-1">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+                  กระแสเงินเข้า {financial_summary.inflow_pct}%
+                </span>
+                <span className="text-rose-500 flex items-center gap-1">
+                  กระแสเงินออก {financial_summary.outflow_pct}%
+                  <span className="w-2 h-2 rounded-full bg-rose-500"></span>
+                </span>
               </div>
-              <div className="w-px bg-slate-100"></div>
-              <div className="text-center">
-                <p className="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-1">เงินออก (12 ด.)</p>
-                <p className="text-sm font-semibold text-slate-700">-{new Intl.NumberFormat('th-TH', { notation: 'compact' }).format(Math.abs(financial_summary.total_expense))}</p>
+              <div className="w-full h-3 bg-slate-100 rounded-full overflow-hidden flex shadow-inner">
+                <div className="bg-gradient-to-r from-emerald-400 to-emerald-500 h-full transition-all" style={{ width: `${financial_summary.inflow_pct}%` }}></div>
+                <div className="bg-gradient-to-r from-rose-400 to-rose-500 h-full transition-all" style={{ width: `${financial_summary.outflow_pct}%` }}></div>
+              </div>
+            </div>
+            
+            <div className="mt-4 pt-4 border-t border-slate-50 flex justify-between items-center">
+              <div className="text-left">
+                <p className="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-0.5">อัตราสภาพคล่องคงเหลือสุทธิ</p>
+                <p className="text-sm font-bold text-slate-800">{financial_summary.retention_pct}% <span className="text-[10px] font-normal text-slate-500">(Net Retention)</span></p>
+              </div>
+              <div className="w-px h-8 bg-slate-100"></div>
+              <div className="text-right">
+                <p className="text-[10px] text-slate-400 uppercase tracking-wider font-bold mb-0.5">ดัชนีสภาพคล่องสำรอง</p>
+                <p className="text-sm font-bold text-emerald-600">{financial_summary.liquidity_buffer?.toFixed(2)}x <span className="text-[10px] font-normal text-slate-500">(Buffer Ratio)</span></p>
               </div>
             </div>
           </div>
@@ -165,7 +177,7 @@ export default function KrungsriUserApp() {
           <div>
             <h3 className="text-slate-900 font-bold mb-3 flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-blue-500" />
-              AI ตรวจสอบความปลอดภัย
+              AI ตรวจสอบความปลอดภัย & ประเมินธุรกรรม
             </h3>
             
             <div className={clsx("rounded-2xl p-5 border shadow-sm relative overflow-hidden", scoreBg, scoreBorder)}>
@@ -189,27 +201,27 @@ export default function KrungsriUserApp() {
                 </div>
                 
                 <div className="text-right">
-                  <p className="text-[10px] font-bold text-slate-500 uppercase">ระดับสิทธิพิเศษ</p>
-                  <p className="text-sm font-bold text-slate-900 mt-0.5">{transaction_score.tier}</p>
+                  <p className="text-[10px] font-bold text-slate-500 uppercase">ระดับการเข้าถึงบริการ</p>
+                  <p className="text-xs font-bold text-slate-900 mt-1 bg-white/80 px-2 py-1 rounded-md border border-slate-100">{transaction_score.tier}</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Privileges List */}
+          {/* Accessible Financial Services List */}
           <div>
             <h3 className="text-slate-900 font-bold mb-3 flex items-center gap-2">
               <WalletCards className="w-5 h-5 text-amber-500" />
-              สิทธิพิเศษของคุณ
+              บริการทางการเงินที่เข้าถึงได้
             </h3>
             <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden divide-y divide-slate-50">
-              {benefits.map((benefit: string, idx: number) => (
+              {(data.accessible_services || data.benefits || []).map((service: string, idx: number) => (
                 <div key={idx} className="p-4 flex items-center gap-3 hover:bg-slate-50 transition-colors cursor-pointer group">
-                  <div className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-amber-100 transition-colors">
+                  <div className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-amber-100 transition-colors shrink-0">
                     <CircleDollarSign className="w-4 h-4 text-slate-400 group-hover:text-amber-600" />
                   </div>
-                  <span className="text-sm font-medium text-slate-700 flex-1">{benefit}</span>
-                  <ChevronRight className="w-4 h-4 text-slate-300" />
+                  <span className="text-sm font-medium text-slate-700 flex-1">{service}</span>
+                  <ChevronRight className="w-4 h-4 text-slate-300 shrink-0" />
                 </div>
               ))}
             </div>
