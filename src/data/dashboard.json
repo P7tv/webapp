@@ -1,0 +1,6148 @@
+{
+  "summary": {
+    "total_accounts": 682,
+    "high_risk_count": 64,
+    "avg_score": 783
+  },
+  "ai_insights": "AI System tracked 64 high-risk accounts. Pattern analysis indicates strong correlation between zero-balance frequency and default probability. Recommend proactive monitoring of these accounts for potential mule activity.",
+  "accounts": [
+    {
+      "account_id": 4127,
+      "score": 329,
+      "probability_of_default": 94.66,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 15,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 2335,
+      "score": 330,
+      "probability_of_default": 94.53,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 38,
+      "end_of_month_spending_prop": 0.36752136752136755
+    },
+    {
+      "account_id": 103,
+      "score": 330,
+      "probability_of_default": 94.46,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 6,
+      "end_of_month_spending_prop": 0.36585365853658536
+    },
+    {
+      "account_id": 1583,
+      "score": 331,
+      "probability_of_default": 94.29,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 10,
+      "end_of_month_spending_prop": 0.5303030303030303
+    },
+    {
+      "account_id": 5442,
+      "score": 333,
+      "probability_of_default": 93.93,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 10,
+      "end_of_month_spending_prop": 0.275
+    },
+    {
+      "account_id": 9750,
+      "score": 336,
+      "probability_of_default": 93.36,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 7,
+      "end_of_month_spending_prop": 0.5172413793103449
+    },
+    {
+      "account_id": 9633,
+      "score": 341,
+      "probability_of_default": 92.43,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 8,
+      "end_of_month_spending_prop": 0.3230769230769231
+    },
+    {
+      "account_id": 2051,
+      "score": 344,
+      "probability_of_default": 92.0,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 7,
+      "end_of_month_spending_prop": 0.37254901960784315
+    },
+    {
+      "account_id": 5267,
+      "score": 347,
+      "probability_of_default": 91.34,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 8,
+      "end_of_month_spending_prop": 0.4777777777777778
+    },
+    {
+      "account_id": 3859,
+      "score": 347,
+      "probability_of_default": 91.3,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 4,
+      "end_of_month_spending_prop": 0.475
+    },
+    {
+      "account_id": 808,
+      "score": 348,
+      "probability_of_default": 91.14,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 7,
+      "end_of_month_spending_prop": 0.3870967741935484
+    },
+    {
+      "account_id": 4858,
+      "score": 348,
+      "probability_of_default": 91.11,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 8,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 8566,
+      "score": 349,
+      "probability_of_default": 91.03,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 6,
+      "end_of_month_spending_prop": 0.3409090909090909
+    },
+    {
+      "account_id": 442,
+      "score": 352,
+      "probability_of_default": 90.53,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 1787,
+      "score": 353,
+      "probability_of_default": 90.34,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 1527,
+      "score": 365,
+      "probability_of_default": 88.11,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 4,
+      "end_of_month_spending_prop": 0.35135135135135137
+    },
+    {
+      "account_id": 9052,
+      "score": 366,
+      "probability_of_default": 87.99,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 7,
+      "end_of_month_spending_prop": 0.4931506849315068
+    },
+    {
+      "account_id": 5735,
+      "score": 374,
+      "probability_of_default": 86.41,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 7,
+      "end_of_month_spending_prop": 0.6206896551724138
+    },
+    {
+      "account_id": 4995,
+      "score": 376,
+      "probability_of_default": 86.16,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 3,
+      "end_of_month_spending_prop": 0.6170212765957447
+    },
+    {
+      "account_id": 6075,
+      "score": 382,
+      "probability_of_default": 85.03,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.40540540540540543
+    },
+    {
+      "account_id": 8225,
+      "score": 384,
+      "probability_of_default": 84.69,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.34615384615384615
+    },
+    {
+      "account_id": 4462,
+      "score": 386,
+      "probability_of_default": 84.27,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 10365,
+      "score": 390,
+      "probability_of_default": 83.57,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 4,
+      "end_of_month_spending_prop": 0.32653061224489793
+    },
+    {
+      "account_id": 37,
+      "score": 395,
+      "probability_of_default": 82.63,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.20238095238095238
+    },
+    {
+      "account_id": 11021,
+      "score": 397,
+      "probability_of_default": 82.29,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.38372093023255816
+    },
+    {
+      "account_id": 790,
+      "score": 398,
+      "probability_of_default": 82.04,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 3,
+      "end_of_month_spending_prop": 0.3142857142857143
+    },
+    {
+      "account_id": 1888,
+      "score": 400,
+      "probability_of_default": 81.78,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.21739130434782608
+    },
+    {
+      "account_id": 347,
+      "score": 403,
+      "probability_of_default": 81.25,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.46
+    },
+    {
+      "account_id": 4618,
+      "score": 408,
+      "probability_of_default": 80.28,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.13636363636363635
+    },
+    {
+      "account_id": 3166,
+      "score": 417,
+      "probability_of_default": 78.61,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 5,
+      "end_of_month_spending_prop": 0.4915254237288136
+    },
+    {
+      "account_id": 3678,
+      "score": 425,
+      "probability_of_default": 77.19,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35443037974683544
+    },
+    {
+      "account_id": 4320,
+      "score": 426,
+      "probability_of_default": 77.03,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 4,
+      "end_of_month_spending_prop": 0.41304347826086957
+    },
+    {
+      "account_id": 1247,
+      "score": 429,
+      "probability_of_default": 76.48,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 4,
+      "end_of_month_spending_prop": 0.49206349206349204
+    },
+    {
+      "account_id": 10131,
+      "score": 431,
+      "probability_of_default": 76.15,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 5428,
+      "score": 431,
+      "probability_of_default": 76.01,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 6473,
+      "score": 440,
+      "probability_of_default": 74.52,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.6333333333333333
+    },
+    {
+      "account_id": 472,
+      "score": 441,
+      "probability_of_default": 74.32,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.09090909090909091
+    },
+    {
+      "account_id": 9138,
+      "score": 442,
+      "probability_of_default": 74.15,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28125
+    },
+    {
+      "account_id": 5066,
+      "score": 450,
+      "probability_of_default": 72.66,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 6400,
+      "score": 454,
+      "probability_of_default": 71.88,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 8073,
+      "score": 455,
+      "probability_of_default": 71.74,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3125
+    },
+    {
+      "account_id": 6118,
+      "score": 460,
+      "probability_of_default": 70.87,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4444444444444444
+    },
+    {
+      "account_id": 7052,
+      "score": 466,
+      "probability_of_default": 69.75,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 7418,
+      "score": 470,
+      "probability_of_default": 69.01,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2647058823529412
+    },
+    {
+      "account_id": 4081,
+      "score": 479,
+      "probability_of_default": 67.44,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 1993,
+      "score": 479,
+      "probability_of_default": 67.32,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 3189,
+      "score": 482,
+      "probability_of_default": 66.88,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6451612903225806
+    },
+    {
+      "account_id": 6051,
+      "score": 487,
+      "probability_of_default": 65.92,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35714285714285715
+    },
+    {
+      "account_id": 3037,
+      "score": 490,
+      "probability_of_default": 65.41,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4507042253521127
+    },
+    {
+      "account_id": 8085,
+      "score": 491,
+      "probability_of_default": 65.09,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2619047619047619
+    },
+    {
+      "account_id": 10451,
+      "score": 493,
+      "probability_of_default": 64.88,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2972972972972973
+    },
+    {
+      "account_id": 4794,
+      "score": 494,
+      "probability_of_default": 64.58,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.15789473684210525
+    },
+    {
+      "account_id": 9017,
+      "score": 495,
+      "probability_of_default": 64.38,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 1106,
+      "score": 497,
+      "probability_of_default": 64.16,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.72
+    },
+    {
+      "account_id": 3084,
+      "score": 508,
+      "probability_of_default": 62.1,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5333333333333333
+    },
+    {
+      "account_id": 5700,
+      "score": 516,
+      "probability_of_default": 60.59,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35384615384615387
+    },
+    {
+      "account_id": 4423,
+      "score": 529,
+      "probability_of_default": 58.31,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 6609,
+      "score": 535,
+      "probability_of_default": 57.12,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.43333333333333335
+    },
+    {
+      "account_id": 6034,
+      "score": 537,
+      "probability_of_default": 56.82,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4594594594594595
+    },
+    {
+      "account_id": 8558,
+      "score": 541,
+      "probability_of_default": 56.1,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 9583,
+      "score": 544,
+      "probability_of_default": 55.61,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.25862068965517243
+    },
+    {
+      "account_id": 3711,
+      "score": 544,
+      "probability_of_default": 55.53,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 2080,
+      "score": 558,
+      "probability_of_default": 53.05,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5714285714285714
+    },
+    {
+      "account_id": 426,
+      "score": 563,
+      "probability_of_default": 52.15,
+      "tier": "Restricted",
+      "status": "High Risk",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34285714285714286
+    },
+    {
+      "account_id": 7966,
+      "score": 595,
+      "probability_of_default": 46.31,
+      "tier": "Restricted",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.7
+    },
+    {
+      "account_id": 7824,
+      "score": 610,
+      "probability_of_default": 43.49,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 8772,
+      "score": 616,
+      "probability_of_default": 42.41,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21621621621621623
+    },
+    {
+      "account_id": 2912,
+      "score": 620,
+      "probability_of_default": 41.68,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.6451612903225806
+    },
+    {
+      "account_id": 1801,
+      "score": 621,
+      "probability_of_default": 41.46,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.3
+    },
+    {
+      "account_id": 1447,
+      "score": 636,
+      "probability_of_default": 38.77,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 2236,
+      "score": 644,
+      "probability_of_default": 37.34,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.9166666666666666
+    },
+    {
+      "account_id": 6715,
+      "score": 656,
+      "probability_of_default": 35.15,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.4117647058823529
+    },
+    {
+      "account_id": 9494,
+      "score": 669,
+      "probability_of_default": 32.79,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2608695652173913
+    },
+    {
+      "account_id": 6856,
+      "score": 683,
+      "probability_of_default": 30.27,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.24509803921568626
+    },
+    {
+      "account_id": 3907,
+      "score": 693,
+      "probability_of_default": 28.52,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 4,
+      "end_of_month_spending_prop": 0.35294117647058826
+    },
+    {
+      "account_id": 3967,
+      "score": 701,
+      "probability_of_default": 27.04,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4444444444444444
+    },
+    {
+      "account_id": 9236,
+      "score": 709,
+      "probability_of_default": 25.49,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 9337,
+      "score": 726,
+      "probability_of_default": 22.48,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 9,
+      "end_of_month_spending_prop": 0.4375
+    },
+    {
+      "account_id": 3752,
+      "score": 729,
+      "probability_of_default": 21.96,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 2486,
+      "score": 731,
+      "probability_of_default": 21.64,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.5952380952380952
+    },
+    {
+      "account_id": 10266,
+      "score": 736,
+      "probability_of_default": 20.6,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 2572,
+      "score": 736,
+      "probability_of_default": 20.58,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.35443037974683544
+    },
+    {
+      "account_id": 5317,
+      "score": 741,
+      "probability_of_default": 19.65,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 2419,
+      "score": 743,
+      "probability_of_default": 19.36,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.64
+    },
+    {
+      "account_id": 3353,
+      "score": 743,
+      "probability_of_default": 19.28,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.9
+    },
+    {
+      "account_id": 7523,
+      "score": 744,
+      "probability_of_default": 19.2,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 846,
+      "score": 749,
+      "probability_of_default": 18.26,
+      "tier": "Standard",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4444444444444444
+    },
+    {
+      "account_id": 9645,
+      "score": 750,
+      "probability_of_default": 18.17,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 1886,
+      "score": 751,
+      "probability_of_default": 17.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 9199,
+      "score": 751,
+      "probability_of_default": 17.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 4994,
+      "score": 751,
+      "probability_of_default": 17.87,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 10679,
+      "score": 757,
+      "probability_of_default": 16.88,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 2187,
+      "score": 757,
+      "probability_of_default": 16.79,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5657894736842105
+    },
+    {
+      "account_id": 4259,
+      "score": 758,
+      "probability_of_default": 16.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 10915,
+      "score": 758,
+      "probability_of_default": 16.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.13414634146341464
+    },
+    {
+      "account_id": 6083,
+      "score": 758,
+      "probability_of_default": 16.63,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 8680,
+      "score": 758,
+      "probability_of_default": 16.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 3230,
+      "score": 758,
+      "probability_of_default": 16.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3170731707317073
+    },
+    {
+      "account_id": 3115,
+      "score": 759,
+      "probability_of_default": 16.54,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6190476190476191
+    },
+    {
+      "account_id": 4937,
+      "score": 759,
+      "probability_of_default": 16.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.2391304347826087
+    },
+    {
+      "account_id": 1480,
+      "score": 759,
+      "probability_of_default": 16.38,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6
+    },
+    {
+      "account_id": 9031,
+      "score": 760,
+      "probability_of_default": 16.24,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 10019,
+      "score": 763,
+      "probability_of_default": 15.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32075471698113206
+    },
+    {
+      "account_id": 2445,
+      "score": 764,
+      "probability_of_default": 15.6,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.45454545454545453
+    },
+    {
+      "account_id": 2246,
+      "score": 764,
+      "probability_of_default": 15.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.631578947368421
+    },
+    {
+      "account_id": 19,
+      "score": 765,
+      "probability_of_default": 15.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4411764705882353
+    },
+    {
+      "account_id": 349,
+      "score": 766,
+      "probability_of_default": 15.23,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3181818181818182
+    },
+    {
+      "account_id": 3273,
+      "score": 766,
+      "probability_of_default": 15.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5633802816901409
+    },
+    {
+      "account_id": 1318,
+      "score": 767,
+      "probability_of_default": 15.0,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35294117647058826
+    },
+    {
+      "account_id": 9560,
+      "score": 768,
+      "probability_of_default": 14.84,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 7045,
+      "score": 769,
+      "probability_of_default": 14.72,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.8888888888888888
+    },
+    {
+      "account_id": 4851,
+      "score": 769,
+      "probability_of_default": 14.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 4448,
+      "score": 770,
+      "probability_of_default": 14.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.627906976744186
+    },
+    {
+      "account_id": 1498,
+      "score": 771,
+      "probability_of_default": 14.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 2,
+      "end_of_month_spending_prop": 0.4528301886792453
+    },
+    {
+      "account_id": 4969,
+      "score": 771,
+      "probability_of_default": 14.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 10788,
+      "score": 771,
+      "probability_of_default": 14.22,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6
+    },
+    {
+      "account_id": 9646,
+      "score": 773,
+      "probability_of_default": 13.88,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6304347826086957
+    },
+    {
+      "account_id": 11135,
+      "score": 775,
+      "probability_of_default": 13.54,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 2245,
+      "score": 776,
+      "probability_of_default": 13.34,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6
+    },
+    {
+      "account_id": 2247,
+      "score": 777,
+      "probability_of_default": 13.24,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2054794520547945
+    },
+    {
+      "account_id": 9225,
+      "score": 778,
+      "probability_of_default": 13.03,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 3,
+      "end_of_month_spending_prop": 0.5490196078431373
+    },
+    {
+      "account_id": 378,
+      "score": 778,
+      "probability_of_default": 12.94,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2
+    },
+    {
+      "account_id": 2516,
+      "score": 778,
+      "probability_of_default": 12.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 8688,
+      "score": 779,
+      "probability_of_default": 12.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 8519,
+      "score": 779,
+      "probability_of_default": 12.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5079365079365079
+    },
+    {
+      "account_id": 9353,
+      "score": 781,
+      "probability_of_default": 12.43,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5217391304347826
+    },
+    {
+      "account_id": 314,
+      "score": 781,
+      "probability_of_default": 12.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5166666666666667
+    },
+    {
+      "account_id": 8316,
+      "score": 783,
+      "probability_of_default": 12.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 4427,
+      "score": 783,
+      "probability_of_default": 12.13,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3023255813953488
+    },
+    {
+      "account_id": 1698,
+      "score": 783,
+      "probability_of_default": 12.08,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 10065,
+      "score": 784,
+      "probability_of_default": 11.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5945945945945946
+    },
+    {
+      "account_id": 6289,
+      "score": 784,
+      "probability_of_default": 11.83,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.48936170212765956
+    },
+    {
+      "account_id": 10857,
+      "score": 785,
+      "probability_of_default": 11.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.625
+    },
+    {
+      "account_id": 10478,
+      "score": 786,
+      "probability_of_default": 11.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.36363636363636365
+    },
+    {
+      "account_id": 6950,
+      "score": 786,
+      "probability_of_default": 11.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 9656,
+      "score": 786,
+      "probability_of_default": 11.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3163265306122449
+    },
+    {
+      "account_id": 7607,
+      "score": 786,
+      "probability_of_default": 11.54,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.39473684210526316
+    },
+    {
+      "account_id": 1071,
+      "score": 787,
+      "probability_of_default": 11.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35
+    },
+    {
+      "account_id": 4260,
+      "score": 787,
+      "probability_of_default": 11.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.16666666666666666
+    },
+    {
+      "account_id": 8159,
+      "score": 787,
+      "probability_of_default": 11.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 4626,
+      "score": 788,
+      "probability_of_default": 11.18,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32432432432432434
+    },
+    {
+      "account_id": 8547,
+      "score": 788,
+      "probability_of_default": 11.16,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3617021276595745
+    },
+    {
+      "account_id": 5256,
+      "score": 789,
+      "probability_of_default": 10.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5555555555555556
+    },
+    {
+      "account_id": 7445,
+      "score": 790,
+      "probability_of_default": 10.89,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.37254901960784315
+    },
+    {
+      "account_id": 4585,
+      "score": 790,
+      "probability_of_default": 10.85,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 105,
+      "score": 790,
+      "probability_of_default": 10.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2962962962962963
+    },
+    {
+      "account_id": 7262,
+      "score": 792,
+      "probability_of_default": 10.41,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 8320,
+      "score": 792,
+      "probability_of_default": 10.39,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 6461,
+      "score": 793,
+      "probability_of_default": 10.3,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40540540540540543
+    },
+    {
+      "account_id": 2165,
+      "score": 794,
+      "probability_of_default": 10.18,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 309,
+      "score": 794,
+      "probability_of_default": 10.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5166666666666667
+    },
+    {
+      "account_id": 2994,
+      "score": 794,
+      "probability_of_default": 10.01,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 8092,
+      "score": 795,
+      "probability_of_default": 9.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2
+    },
+    {
+      "account_id": 4576,
+      "score": 796,
+      "probability_of_default": 9.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3409090909090909
+    },
+    {
+      "account_id": 3834,
+      "score": 797,
+      "probability_of_default": 9.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2601626016260163
+    },
+    {
+      "account_id": 440,
+      "score": 798,
+      "probability_of_default": 9.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4423076923076923
+    },
+    {
+      "account_id": 7485,
+      "score": 798,
+      "probability_of_default": 9.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 3862,
+      "score": 798,
+      "probability_of_default": 9.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34545454545454546
+    },
+    {
+      "account_id": 2754,
+      "score": 799,
+      "probability_of_default": 9.17,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3939393939393939
+    },
+    {
+      "account_id": 5181,
+      "score": 799,
+      "probability_of_default": 9.16,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.46875
+    },
+    {
+      "account_id": 6363,
+      "score": 799,
+      "probability_of_default": 9.13,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.7317073170731707
+    },
+    {
+      "account_id": 8533,
+      "score": 799,
+      "probability_of_default": 9.09,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2903225806451613
+    },
+    {
+      "account_id": 4746,
+      "score": 800,
+      "probability_of_default": 8.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.7777777777777778
+    },
+    {
+      "account_id": 8564,
+      "score": 801,
+      "probability_of_default": 8.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2111111111111111
+    },
+    {
+      "account_id": 1093,
+      "score": 801,
+      "probability_of_default": 8.85,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.29411764705882354
+    },
+    {
+      "account_id": 5591,
+      "score": 802,
+      "probability_of_default": 8.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.16
+    },
+    {
+      "account_id": 1284,
+      "score": 802,
+      "probability_of_default": 8.62,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.6530612244897959
+    },
+    {
+      "account_id": 7565,
+      "score": 802,
+      "probability_of_default": 8.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3684210526315789
+    },
+    {
+      "account_id": 5180,
+      "score": 802,
+      "probability_of_default": 8.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5384615384615384
+    },
+    {
+      "account_id": 290,
+      "score": 803,
+      "probability_of_default": 8.54,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.41025641025641024
+    },
+    {
+      "account_id": 8899,
+      "score": 804,
+      "probability_of_default": 8.35,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32857142857142857
+    },
+    {
+      "account_id": 8026,
+      "score": 804,
+      "probability_of_default": 8.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 10630,
+      "score": 804,
+      "probability_of_default": 8.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 6688,
+      "score": 805,
+      "probability_of_default": 8.16,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 1.0
+    },
+    {
+      "account_id": 11141,
+      "score": 805,
+      "probability_of_default": 8.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2631578947368421
+    },
+    {
+      "account_id": 3664,
+      "score": 805,
+      "probability_of_default": 8.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6530612244897959
+    },
+    {
+      "account_id": 6138,
+      "score": 806,
+      "probability_of_default": 7.97,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.7
+    },
+    {
+      "account_id": 6265,
+      "score": 807,
+      "probability_of_default": 7.79,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5476190476190477
+    },
+    {
+      "account_id": 2933,
+      "score": 807,
+      "probability_of_default": 7.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.36
+    },
+    {
+      "account_id": 4784,
+      "score": 807,
+      "probability_of_default": 7.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 9156,
+      "score": 807,
+      "probability_of_default": 7.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34375
+    },
+    {
+      "account_id": 10093,
+      "score": 807,
+      "probability_of_default": 7.7,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34782608695652173
+    },
+    {
+      "account_id": 5213,
+      "score": 808,
+      "probability_of_default": 7.62,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2962962962962963
+    },
+    {
+      "account_id": 9814,
+      "score": 808,
+      "probability_of_default": 7.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3230769230769231
+    },
+    {
+      "account_id": 7990,
+      "score": 808,
+      "probability_of_default": 7.48,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5113636363636364
+    },
+    {
+      "account_id": 2176,
+      "score": 808,
+      "probability_of_default": 7.47,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.225
+    },
+    {
+      "account_id": 6425,
+      "score": 809,
+      "probability_of_default": 7.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.52
+    },
+    {
+      "account_id": 4503,
+      "score": 809,
+      "probability_of_default": 7.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5333333333333333
+    },
+    {
+      "account_id": 2350,
+      "score": 809,
+      "probability_of_default": 7.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 5927,
+      "score": 810,
+      "probability_of_default": 7.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 2872,
+      "score": 810,
+      "probability_of_default": 7.15,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3225806451612903
+    },
+    {
+      "account_id": 11349,
+      "score": 810,
+      "probability_of_default": 7.13,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5714285714285714
+    },
+    {
+      "account_id": 6678,
+      "score": 810,
+      "probability_of_default": 7.11,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.48
+    },
+    {
+      "account_id": 10068,
+      "score": 811,
+      "probability_of_default": 7.08,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 8158,
+      "score": 811,
+      "probability_of_default": 7.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2222222222222222
+    },
+    {
+      "account_id": 9493,
+      "score": 811,
+      "probability_of_default": 7.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3
+    },
+    {
+      "account_id": 7795,
+      "score": 811,
+      "probability_of_default": 6.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40594059405940597
+    },
+    {
+      "account_id": 9263,
+      "score": 811,
+      "probability_of_default": 6.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.325
+    },
+    {
+      "account_id": 10079,
+      "score": 811,
+      "probability_of_default": 6.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3695652173913043
+    },
+    {
+      "account_id": 4999,
+      "score": 812,
+      "probability_of_default": 6.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.208955223880597
+    },
+    {
+      "account_id": 4715,
+      "score": 812,
+      "probability_of_default": 6.87,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 2962,
+      "score": 812,
+      "probability_of_default": 6.86,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5217391304347826
+    },
+    {
+      "account_id": 5698,
+      "score": 812,
+      "probability_of_default": 6.85,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40816326530612246
+    },
+    {
+      "account_id": 1811,
+      "score": 812,
+      "probability_of_default": 6.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.39285714285714285
+    },
+    {
+      "account_id": 1808,
+      "score": 812,
+      "probability_of_default": 6.78,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40476190476190477
+    },
+    {
+      "account_id": 1250,
+      "score": 812,
+      "probability_of_default": 6.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4782608695652174
+    },
+    {
+      "account_id": 10652,
+      "score": 813,
+      "probability_of_default": 6.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1694915254237288
+    },
+    {
+      "account_id": 9167,
+      "score": 813,
+      "probability_of_default": 6.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40476190476190477
+    },
+    {
+      "account_id": 6930,
+      "score": 813,
+      "probability_of_default": 6.63,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 3161,
+      "score": 813,
+      "probability_of_default": 6.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5357142857142857
+    },
+    {
+      "account_id": 10361,
+      "score": 813,
+      "probability_of_default": 6.55,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3142857142857143
+    },
+    {
+      "account_id": 9677,
+      "score": 814,
+      "probability_of_default": 6.54,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.15
+    },
+    {
+      "account_id": 5481,
+      "score": 814,
+      "probability_of_default": 6.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2857142857142857
+    },
+    {
+      "account_id": 4337,
+      "score": 814,
+      "probability_of_default": 6.45,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3939393939393939
+    },
+    {
+      "account_id": 4052,
+      "score": 814,
+      "probability_of_default": 6.37,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.7142857142857143
+    },
+    {
+      "account_id": 4631,
+      "score": 814,
+      "probability_of_default": 6.37,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40625
+    },
+    {
+      "account_id": 4894,
+      "score": 815,
+      "probability_of_default": 6.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 6701,
+      "score": 815,
+      "probability_of_default": 6.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 10520,
+      "score": 815,
+      "probability_of_default": 6.27,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6153846153846154
+    },
+    {
+      "account_id": 5270,
+      "score": 815,
+      "probability_of_default": 6.22,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3225806451612903
+    },
+    {
+      "account_id": 6440,
+      "score": 815,
+      "probability_of_default": 6.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.6842105263157895
+    },
+    {
+      "account_id": 6030,
+      "score": 816,
+      "probability_of_default": 6.15,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5357142857142857
+    },
+    {
+      "account_id": 6649,
+      "score": 816,
+      "probability_of_default": 6.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4827586206896552
+    },
+    {
+      "account_id": 7136,
+      "score": 816,
+      "probability_of_default": 6.11,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2289156626506024
+    },
+    {
+      "account_id": 9403,
+      "score": 816,
+      "probability_of_default": 6.11,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4166666666666667
+    },
+    {
+      "account_id": 9104,
+      "score": 816,
+      "probability_of_default": 6.08,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5882352941176471
+    },
+    {
+      "account_id": 5632,
+      "score": 816,
+      "probability_of_default": 6.07,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 2910,
+      "score": 816,
+      "probability_of_default": 6.02,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.15151515151515152
+    },
+    {
+      "account_id": 8381,
+      "score": 817,
+      "probability_of_default": 5.99,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2777777777777778
+    },
+    {
+      "account_id": 8784,
+      "score": 817,
+      "probability_of_default": 5.99,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2191780821917808
+    },
+    {
+      "account_id": 11111,
+      "score": 817,
+      "probability_of_default": 5.97,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3125
+    },
+    {
+      "account_id": 2055,
+      "score": 817,
+      "probability_of_default": 5.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.325
+    },
+    {
+      "account_id": 2753,
+      "score": 817,
+      "probability_of_default": 5.94,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.27941176470588236
+    },
+    {
+      "account_id": 3562,
+      "score": 817,
+      "probability_of_default": 5.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3176470588235294
+    },
+    {
+      "account_id": 2936,
+      "score": 817,
+      "probability_of_default": 5.88,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4126984126984127
+    },
+    {
+      "account_id": 1012,
+      "score": 817,
+      "probability_of_default": 5.86,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 7594,
+      "score": 817,
+      "probability_of_default": 5.83,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.16546762589928057
+    },
+    {
+      "account_id": 3137,
+      "score": 817,
+      "probability_of_default": 5.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35384615384615387
+    },
+    {
+      "account_id": 9235,
+      "score": 818,
+      "probability_of_default": 5.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.42105263157894735
+    },
+    {
+      "account_id": 10105,
+      "score": 818,
+      "probability_of_default": 5.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5740740740740741
+    },
+    {
+      "account_id": 7733,
+      "score": 818,
+      "probability_of_default": 5.76,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4791666666666667
+    },
+    {
+      "account_id": 5944,
+      "score": 818,
+      "probability_of_default": 5.72,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2222222222222222
+    },
+    {
+      "account_id": 7926,
+      "score": 819,
+      "probability_of_default": 5.62,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.14285714285714285
+    },
+    {
+      "account_id": 4533,
+      "score": 819,
+      "probability_of_default": 5.61,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.36
+    },
+    {
+      "account_id": 9455,
+      "score": 819,
+      "probability_of_default": 5.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2875
+    },
+    {
+      "account_id": 10954,
+      "score": 819,
+      "probability_of_default": 5.55,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.625
+    },
+    {
+      "account_id": 4616,
+      "score": 819,
+      "probability_of_default": 5.53,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 938,
+      "score": 819,
+      "probability_of_default": 5.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 4413,
+      "score": 819,
+      "probability_of_default": 5.51,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.21739130434782608
+    },
+    {
+      "account_id": 1004,
+      "score": 819,
+      "probability_of_default": 5.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5402298850574713
+    },
+    {
+      "account_id": 3418,
+      "score": 819,
+      "probability_of_default": 5.49,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 8377,
+      "score": 819,
+      "probability_of_default": 5.49,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.18181818181818182
+    },
+    {
+      "account_id": 6592,
+      "score": 820,
+      "probability_of_default": 5.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3877551020408163
+    },
+    {
+      "account_id": 7721,
+      "score": 820,
+      "probability_of_default": 5.35,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5151515151515151
+    },
+    {
+      "account_id": 1252,
+      "score": 820,
+      "probability_of_default": 5.34,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.47368421052631576
+    },
+    {
+      "account_id": 10280,
+      "score": 820,
+      "probability_of_default": 5.3,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6410256410256411
+    },
+    {
+      "account_id": 3942,
+      "score": 821,
+      "probability_of_default": 5.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 8169,
+      "score": 821,
+      "probability_of_default": 5.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3695652173913043
+    },
+    {
+      "account_id": 2622,
+      "score": 821,
+      "probability_of_default": 5.22,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.410958904109589
+    },
+    {
+      "account_id": 7713,
+      "score": 821,
+      "probability_of_default": 5.18,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34146341463414637
+    },
+    {
+      "account_id": 330,
+      "score": 821,
+      "probability_of_default": 5.17,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.47540983606557374
+    },
+    {
+      "account_id": 4033,
+      "score": 821,
+      "probability_of_default": 5.13,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 4467,
+      "score": 821,
+      "probability_of_default": 5.13,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34
+    },
+    {
+      "account_id": 8639,
+      "score": 821,
+      "probability_of_default": 5.11,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32
+    },
+    {
+      "account_id": 1068,
+      "score": 822,
+      "probability_of_default": 4.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.20652173913043478
+    },
+    {
+      "account_id": 1374,
+      "score": 822,
+      "probability_of_default": 4.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.631578947368421
+    },
+    {
+      "account_id": 7997,
+      "score": 822,
+      "probability_of_default": 4.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5393258426966292
+    },
+    {
+      "account_id": 718,
+      "score": 822,
+      "probability_of_default": 4.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2676056338028169
+    },
+    {
+      "account_id": 1407,
+      "score": 822,
+      "probability_of_default": 4.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2222222222222222
+    },
+    {
+      "account_id": 501,
+      "score": 822,
+      "probability_of_default": 4.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.375
+    },
+    {
+      "account_id": 2262,
+      "score": 822,
+      "probability_of_default": 4.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.43820224719101125
+    },
+    {
+      "account_id": 9034,
+      "score": 822,
+      "probability_of_default": 4.94,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.45454545454545453
+    },
+    {
+      "account_id": 2496,
+      "score": 822,
+      "probability_of_default": 4.93,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3484848484848485
+    },
+    {
+      "account_id": 4079,
+      "score": 822,
+      "probability_of_default": 4.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2980769230769231
+    },
+    {
+      "account_id": 7240,
+      "score": 822,
+      "probability_of_default": 4.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32894736842105265
+    },
+    {
+      "account_id": 3021,
+      "score": 823,
+      "probability_of_default": 4.87,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2857142857142857
+    },
+    {
+      "account_id": 7844,
+      "score": 823,
+      "probability_of_default": 4.85,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5882352941176471
+    },
+    {
+      "account_id": 993,
+      "score": 823,
+      "probability_of_default": 4.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.23333333333333334
+    },
+    {
+      "account_id": 9510,
+      "score": 823,
+      "probability_of_default": 4.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.14285714285714285
+    },
+    {
+      "account_id": 10963,
+      "score": 823,
+      "probability_of_default": 4.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2876712328767123
+    },
+    {
+      "account_id": 7861,
+      "score": 823,
+      "probability_of_default": 4.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 5724,
+      "score": 823,
+      "probability_of_default": 4.74,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17293233082706766
+    },
+    {
+      "account_id": 7274,
+      "score": 823,
+      "probability_of_default": 4.74,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6363636363636364
+    },
+    {
+      "account_id": 5126,
+      "score": 823,
+      "probability_of_default": 4.73,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.46153846153846156
+    },
+    {
+      "account_id": 8645,
+      "score": 824,
+      "probability_of_default": 4.7,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2878787878787879
+    },
+    {
+      "account_id": 1638,
+      "score": 824,
+      "probability_of_default": 4.66,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.18181818181818182
+    },
+    {
+      "account_id": 675,
+      "score": 824,
+      "probability_of_default": 4.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3972602739726027
+    },
+    {
+      "account_id": 10940,
+      "score": 824,
+      "probability_of_default": 4.63,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 8411,
+      "score": 824,
+      "probability_of_default": 4.61,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.33783783783783783
+    },
+    {
+      "account_id": 1928,
+      "score": 824,
+      "probability_of_default": 4.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.640625
+    },
+    {
+      "account_id": 3249,
+      "score": 824,
+      "probability_of_default": 4.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 10812,
+      "score": 825,
+      "probability_of_default": 4.53,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3673469387755102
+    },
+    {
+      "account_id": 10364,
+      "score": 825,
+      "probability_of_default": 4.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.20833333333333334
+    },
+    {
+      "account_id": 1819,
+      "score": 825,
+      "probability_of_default": 4.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2
+    },
+    {
+      "account_id": 5196,
+      "score": 825,
+      "probability_of_default": 4.45,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6470588235294118
+    },
+    {
+      "account_id": 6158,
+      "score": 825,
+      "probability_of_default": 4.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 2153,
+      "score": 825,
+      "probability_of_default": 4.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20408163265306123
+    },
+    {
+      "account_id": 2227,
+      "score": 825,
+      "probability_of_default": 4.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3389830508474576
+    },
+    {
+      "account_id": 6097,
+      "score": 825,
+      "probability_of_default": 4.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 7180,
+      "score": 825,
+      "probability_of_default": 4.41,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3
+    },
+    {
+      "account_id": 173,
+      "score": 825,
+      "probability_of_default": 4.37,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3888888888888889
+    },
+    {
+      "account_id": 5602,
+      "score": 826,
+      "probability_of_default": 4.35,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4791666666666667
+    },
+    {
+      "account_id": 4774,
+      "score": 826,
+      "probability_of_default": 4.34,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26153846153846155
+    },
+    {
+      "account_id": 7632,
+      "score": 826,
+      "probability_of_default": 4.34,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.33962264150943394
+    },
+    {
+      "account_id": 9828,
+      "score": 826,
+      "probability_of_default": 4.3,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32558139534883723
+    },
+    {
+      "account_id": 1843,
+      "score": 826,
+      "probability_of_default": 4.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 2142,
+      "score": 826,
+      "probability_of_default": 4.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.8461538461538461
+    },
+    {
+      "account_id": 5837,
+      "score": 826,
+      "probability_of_default": 4.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35294117647058826
+    },
+    {
+      "account_id": 3804,
+      "score": 826,
+      "probability_of_default": 4.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3620689655172414
+    },
+    {
+      "account_id": 7769,
+      "score": 826,
+      "probability_of_default": 4.25,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2222222222222222
+    },
+    {
+      "account_id": 8041,
+      "score": 826,
+      "probability_of_default": 4.25,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2608695652173913
+    },
+    {
+      "account_id": 940,
+      "score": 826,
+      "probability_of_default": 4.24,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.29310344827586204
+    },
+    {
+      "account_id": 5362,
+      "score": 826,
+      "probability_of_default": 4.23,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2826086956521739
+    },
+    {
+      "account_id": 9201,
+      "score": 826,
+      "probability_of_default": 4.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.46153846153846156
+    },
+    {
+      "account_id": 3629,
+      "score": 827,
+      "probability_of_default": 4.15,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3063063063063063
+    },
+    {
+      "account_id": 10243,
+      "score": 827,
+      "probability_of_default": 4.15,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.43103448275862066
+    },
+    {
+      "account_id": 10973,
+      "score": 827,
+      "probability_of_default": 4.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 8931,
+      "score": 827,
+      "probability_of_default": 4.13,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.38461538461538464
+    },
+    {
+      "account_id": 132,
+      "score": 827,
+      "probability_of_default": 4.1,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 2064,
+      "score": 827,
+      "probability_of_default": 4.07,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.7058823529411765
+    },
+    {
+      "account_id": 3460,
+      "score": 827,
+      "probability_of_default": 4.06,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4489795918367347
+    },
+    {
+      "account_id": 10711,
+      "score": 827,
+      "probability_of_default": 4.06,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.16161616161616163
+    },
+    {
+      "account_id": 5120,
+      "score": 827,
+      "probability_of_default": 4.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3448275862068966
+    },
+    {
+      "account_id": 5628,
+      "score": 827,
+      "probability_of_default": 4.02,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3103448275862069
+    },
+    {
+      "account_id": 11328,
+      "score": 827,
+      "probability_of_default": 4.01,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4576271186440678
+    },
+    {
+      "account_id": 8505,
+      "score": 828,
+      "probability_of_default": 3.97,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2777777777777778
+    },
+    {
+      "account_id": 1718,
+      "score": 828,
+      "probability_of_default": 3.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.42424242424242425
+    },
+    {
+      "account_id": 9513,
+      "score": 828,
+      "probability_of_default": 3.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26785714285714285
+    },
+    {
+      "account_id": 3875,
+      "score": 828,
+      "probability_of_default": 3.89,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 6510,
+      "score": 828,
+      "probability_of_default": 3.89,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23529411764705882
+    },
+    {
+      "account_id": 1166,
+      "score": 828,
+      "probability_of_default": 3.86,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23529411764705882
+    },
+    {
+      "account_id": 9833,
+      "score": 828,
+      "probability_of_default": 3.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3111111111111111
+    },
+    {
+      "account_id": 2106,
+      "score": 829,
+      "probability_of_default": 3.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.55
+    },
+    {
+      "account_id": 7859,
+      "score": 829,
+      "probability_of_default": 3.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3225806451612903
+    },
+    {
+      "account_id": 4580,
+      "score": 829,
+      "probability_of_default": 3.78,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 10404,
+      "score": 829,
+      "probability_of_default": 3.76,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32142857142857145
+    },
+    {
+      "account_id": 10728,
+      "score": 829,
+      "probability_of_default": 3.74,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 11359,
+      "score": 829,
+      "probability_of_default": 3.74,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.43137254901960786
+    },
+    {
+      "account_id": 6226,
+      "score": 829,
+      "probability_of_default": 3.73,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5576923076923077
+    },
+    {
+      "account_id": 9241,
+      "score": 829,
+      "probability_of_default": 3.73,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5714285714285714
+    },
+    {
+      "account_id": 10942,
+      "score": 829,
+      "probability_of_default": 3.7,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2972972972972973
+    },
+    {
+      "account_id": 2988,
+      "score": 829,
+      "probability_of_default": 3.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4444444444444444
+    },
+    {
+      "account_id": 10799,
+      "score": 829,
+      "probability_of_default": 3.66,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.30434782608695654
+    },
+    {
+      "account_id": 4725,
+      "score": 829,
+      "probability_of_default": 3.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 9472,
+      "score": 830,
+      "probability_of_default": 3.63,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3627450980392157
+    },
+    {
+      "account_id": 10257,
+      "score": 830,
+      "probability_of_default": 3.61,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.475
+    },
+    {
+      "account_id": 5622,
+      "score": 830,
+      "probability_of_default": 3.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2713178294573643
+    },
+    {
+      "account_id": 7907,
+      "score": 830,
+      "probability_of_default": 3.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.43478260869565216
+    },
+    {
+      "account_id": 7890,
+      "score": 830,
+      "probability_of_default": 3.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3793103448275862
+    },
+    {
+      "account_id": 5263,
+      "score": 830,
+      "probability_of_default": 3.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.40425531914893614
+    },
+    {
+      "account_id": 2824,
+      "score": 830,
+      "probability_of_default": 3.51,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20833333333333334
+    },
+    {
+      "account_id": 7049,
+      "score": 830,
+      "probability_of_default": 3.51,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17647058823529413
+    },
+    {
+      "account_id": 3906,
+      "score": 830,
+      "probability_of_default": 3.48,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2777777777777778
+    },
+    {
+      "account_id": 1656,
+      "score": 830,
+      "probability_of_default": 3.47,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5061728395061729
+    },
+    {
+      "account_id": 4803,
+      "score": 830,
+      "probability_of_default": 3.47,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 9548,
+      "score": 830,
+      "probability_of_default": 3.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 4447,
+      "score": 831,
+      "probability_of_default": 3.45,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.15384615384615385
+    },
+    {
+      "account_id": 8261,
+      "score": 831,
+      "probability_of_default": 3.43,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 10001,
+      "score": 831,
+      "probability_of_default": 3.41,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.625
+    },
+    {
+      "account_id": 873,
+      "score": 831,
+      "probability_of_default": 3.38,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 4144,
+      "score": 831,
+      "probability_of_default": 3.38,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2988505747126437
+    },
+    {
+      "account_id": 10436,
+      "score": 831,
+      "probability_of_default": 3.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1111111111111111
+    },
+    {
+      "account_id": 825,
+      "score": 831,
+      "probability_of_default": 3.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.358974358974359
+    },
+    {
+      "account_id": 6505,
+      "score": 831,
+      "probability_of_default": 3.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.14285714285714285
+    },
+    {
+      "account_id": 3448,
+      "score": 831,
+      "probability_of_default": 3.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4418604651162791
+    },
+    {
+      "account_id": 5215,
+      "score": 832,
+      "probability_of_default": 3.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3287671232876712
+    },
+    {
+      "account_id": 5283,
+      "score": 832,
+      "probability_of_default": 3.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23809523809523808
+    },
+    {
+      "account_id": 5912,
+      "score": 832,
+      "probability_of_default": 3.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.37142857142857144
+    },
+    {
+      "account_id": 7957,
+      "score": 832,
+      "probability_of_default": 3.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2909090909090909
+    },
+    {
+      "account_id": 7745,
+      "score": 832,
+      "probability_of_default": 3.25,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5263157894736842
+    },
+    {
+      "account_id": 2413,
+      "score": 833,
+      "probability_of_default": 3.08,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.53125
+    },
+    {
+      "account_id": 8982,
+      "score": 833,
+      "probability_of_default": 3.07,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 5952,
+      "score": 833,
+      "probability_of_default": 3.06,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.18666666666666668
+    },
+    {
+      "account_id": 4099,
+      "score": 833,
+      "probability_of_default": 3.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32
+    },
+    {
+      "account_id": 8094,
+      "score": 833,
+      "probability_of_default": 3.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 25,
+      "score": 833,
+      "probability_of_default": 3.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35398230088495575
+    },
+    {
+      "account_id": 2699,
+      "score": 833,
+      "probability_of_default": 3.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3942307692307692
+    },
+    {
+      "account_id": 4650,
+      "score": 833,
+      "probability_of_default": 3.02,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28
+    },
+    {
+      "account_id": 6699,
+      "score": 833,
+      "probability_of_default": 3.01,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2545454545454545
+    },
+    {
+      "account_id": 5164,
+      "score": 833,
+      "probability_of_default": 2.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.36666666666666664
+    },
+    {
+      "account_id": 11186,
+      "score": 833,
+      "probability_of_default": 2.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35051546391752575
+    },
+    {
+      "account_id": 7606,
+      "score": 833,
+      "probability_of_default": 2.93,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21153846153846154
+    },
+    {
+      "account_id": 1906,
+      "score": 833,
+      "probability_of_default": 2.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5423728813559322
+    },
+    {
+      "account_id": 6738,
+      "score": 833,
+      "probability_of_default": 2.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6444444444444445
+    },
+    {
+      "account_id": 10134,
+      "score": 834,
+      "probability_of_default": 2.89,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.47058823529411764
+    },
+    {
+      "account_id": 1772,
+      "score": 834,
+      "probability_of_default": 2.87,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.37735849056603776
+    },
+    {
+      "account_id": 7637,
+      "score": 834,
+      "probability_of_default": 2.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 9006,
+      "score": 834,
+      "probability_of_default": 2.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.48148148148148145
+    },
+    {
+      "account_id": 960,
+      "score": 834,
+      "probability_of_default": 2.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 8127,
+      "score": 834,
+      "probability_of_default": 2.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.27472527472527475
+    },
+    {
+      "account_id": 10345,
+      "score": 834,
+      "probability_of_default": 2.78,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3625
+    },
+    {
+      "account_id": 1242,
+      "score": 834,
+      "probability_of_default": 2.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28205128205128205
+    },
+    {
+      "account_id": 9631,
+      "score": 834,
+      "probability_of_default": 2.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4423076923076923
+    },
+    {
+      "account_id": 10063,
+      "score": 834,
+      "probability_of_default": 2.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.09375
+    },
+    {
+      "account_id": 10049,
+      "score": 834,
+      "probability_of_default": 2.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 2279,
+      "score": 835,
+      "probability_of_default": 2.72,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6716417910447762
+    },
+    {
+      "account_id": 5072,
+      "score": 835,
+      "probability_of_default": 2.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.28846153846153844
+    },
+    {
+      "account_id": 1766,
+      "score": 835,
+      "probability_of_default": 2.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3049645390070922
+    },
+    {
+      "account_id": 6157,
+      "score": 835,
+      "probability_of_default": 2.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2765957446808511
+    },
+    {
+      "account_id": 9024,
+      "score": 835,
+      "probability_of_default": 2.68,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 1389,
+      "score": 835,
+      "probability_of_default": 2.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.39655172413793105
+    },
+    {
+      "account_id": 10738,
+      "score": 835,
+      "probability_of_default": 2.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20987654320987653
+    },
+    {
+      "account_id": 2035,
+      "score": 835,
+      "probability_of_default": 2.66,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.16153846153846155
+    },
+    {
+      "account_id": 1580,
+      "score": 835,
+      "probability_of_default": 2.63,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.46153846153846156
+    },
+    {
+      "account_id": 8926,
+      "score": 835,
+      "probability_of_default": 2.63,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.13333333333333333
+    },
+    {
+      "account_id": 11317,
+      "score": 835,
+      "probability_of_default": 2.62,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28421052631578947
+    },
+    {
+      "account_id": 6353,
+      "score": 835,
+      "probability_of_default": 2.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 9424,
+      "score": 835,
+      "probability_of_default": 2.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6470588235294118
+    },
+    {
+      "account_id": 11027,
+      "score": 835,
+      "probability_of_default": 2.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4583333333333333
+    },
+    {
+      "account_id": 5742,
+      "score": 835,
+      "probability_of_default": 2.55,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 8173,
+      "score": 835,
+      "probability_of_default": 2.55,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.23333333333333334
+    },
+    {
+      "account_id": 8129,
+      "score": 836,
+      "probability_of_default": 2.53,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5365853658536586
+    },
+    {
+      "account_id": 176,
+      "score": 836,
+      "probability_of_default": 2.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20833333333333334
+    },
+    {
+      "account_id": 3112,
+      "score": 836,
+      "probability_of_default": 2.51,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2375
+    },
+    {
+      "account_id": 11069,
+      "score": 836,
+      "probability_of_default": 2.51,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5333333333333333
+    },
+    {
+      "account_id": 8039,
+      "score": 836,
+      "probability_of_default": 2.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17647058823529413
+    },
+    {
+      "account_id": 5650,
+      "score": 836,
+      "probability_of_default": 2.48,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.15384615384615385
+    },
+    {
+      "account_id": 6902,
+      "score": 836,
+      "probability_of_default": 2.48,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23076923076923078
+    },
+    {
+      "account_id": 1776,
+      "score": 836,
+      "probability_of_default": 2.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5151515151515151
+    },
+    {
+      "account_id": 2982,
+      "score": 836,
+      "probability_of_default": 2.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2754491017964072
+    },
+    {
+      "account_id": 5891,
+      "score": 836,
+      "probability_of_default": 2.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5576923076923077
+    },
+    {
+      "account_id": 7156,
+      "score": 836,
+      "probability_of_default": 2.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2857142857142857
+    },
+    {
+      "account_id": 67,
+      "score": 836,
+      "probability_of_default": 2.45,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26136363636363635
+    },
+    {
+      "account_id": 2345,
+      "score": 836,
+      "probability_of_default": 2.45,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 2228,
+      "score": 836,
+      "probability_of_default": 2.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 7753,
+      "score": 836,
+      "probability_of_default": 2.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3448275862068966
+    },
+    {
+      "account_id": 5033,
+      "score": 836,
+      "probability_of_default": 2.43,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2708333333333333
+    },
+    {
+      "account_id": 5358,
+      "score": 836,
+      "probability_of_default": 2.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.33783783783783783
+    },
+    {
+      "account_id": 9869,
+      "score": 836,
+      "probability_of_default": 2.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.189873417721519
+    },
+    {
+      "account_id": 1869,
+      "score": 836,
+      "probability_of_default": 2.4,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34782608695652173
+    },
+    {
+      "account_id": 2334,
+      "score": 836,
+      "probability_of_default": 2.39,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2857142857142857
+    },
+    {
+      "account_id": 6495,
+      "score": 836,
+      "probability_of_default": 2.38,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34615384615384615
+    },
+    {
+      "account_id": 10663,
+      "score": 836,
+      "probability_of_default": 2.38,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2982456140350877
+    },
+    {
+      "account_id": 789,
+      "score": 837,
+      "probability_of_default": 2.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21428571428571427
+    },
+    {
+      "account_id": 3455,
+      "score": 837,
+      "probability_of_default": 2.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.30303030303030304
+    },
+    {
+      "account_id": 5395,
+      "score": 837,
+      "probability_of_default": 2.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6666666666666666
+    },
+    {
+      "account_id": 4456,
+      "score": 837,
+      "probability_of_default": 2.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5308641975308642
+    },
+    {
+      "account_id": 5991,
+      "score": 837,
+      "probability_of_default": 2.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2682926829268293
+    },
+    {
+      "account_id": 7542,
+      "score": 837,
+      "probability_of_default": 2.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23076923076923078
+    },
+    {
+      "account_id": 2545,
+      "score": 837,
+      "probability_of_default": 2.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2112676056338028
+    },
+    {
+      "account_id": 4342,
+      "score": 837,
+      "probability_of_default": 2.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5113636363636364
+    },
+    {
+      "account_id": 8327,
+      "score": 837,
+      "probability_of_default": 2.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2962962962962963
+    },
+    {
+      "account_id": 2167,
+      "score": 837,
+      "probability_of_default": 2.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3695652173913043
+    },
+    {
+      "account_id": 4852,
+      "score": 837,
+      "probability_of_default": 2.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.375
+    },
+    {
+      "account_id": 10884,
+      "score": 837,
+      "probability_of_default": 2.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28888888888888886
+    },
+    {
+      "account_id": 1270,
+      "score": 837,
+      "probability_of_default": 2.27,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2926829268292683
+    },
+    {
+      "account_id": 4907,
+      "score": 837,
+      "probability_of_default": 2.25,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2677165354330709
+    },
+    {
+      "account_id": 6434,
+      "score": 837,
+      "probability_of_default": 2.24,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4117647058823529
+    },
+    {
+      "account_id": 2018,
+      "score": 837,
+      "probability_of_default": 2.23,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3225806451612903
+    },
+    {
+      "account_id": 8776,
+      "score": 837,
+      "probability_of_default": 2.23,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5588235294117647
+    },
+    {
+      "account_id": 2361,
+      "score": 837,
+      "probability_of_default": 2.22,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.47368421052631576
+    },
+    {
+      "account_id": 4268,
+      "score": 837,
+      "probability_of_default": 2.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.43243243243243246
+    },
+    {
+      "account_id": 9673,
+      "score": 837,
+      "probability_of_default": 2.2,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3090909090909091
+    },
+    {
+      "account_id": 2218,
+      "score": 837,
+      "probability_of_default": 2.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34285714285714286
+    },
+    {
+      "account_id": 2762,
+      "score": 837,
+      "probability_of_default": 2.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25773195876288657
+    },
+    {
+      "account_id": 7424,
+      "score": 837,
+      "probability_of_default": 2.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.30973451327433627
+    },
+    {
+      "account_id": 9897,
+      "score": 837,
+      "probability_of_default": 2.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.19047619047619047
+    },
+    {
+      "account_id": 2,
+      "score": 838,
+      "probability_of_default": 2.16,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.59375
+    },
+    {
+      "account_id": 5445,
+      "score": 838,
+      "probability_of_default": 2.16,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.16
+    },
+    {
+      "account_id": 10005,
+      "score": 838,
+      "probability_of_default": 2.15,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.6086956521739131
+    },
+    {
+      "account_id": 915,
+      "score": 838,
+      "probability_of_default": 2.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21052631578947367
+    },
+    {
+      "account_id": 9504,
+      "score": 838,
+      "probability_of_default": 2.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5306122448979592
+    },
+    {
+      "account_id": 10202,
+      "score": 838,
+      "probability_of_default": 2.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22641509433962265
+    },
+    {
+      "account_id": 544,
+      "score": 838,
+      "probability_of_default": 2.12,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3695652173913043
+    },
+    {
+      "account_id": 7636,
+      "score": 838,
+      "probability_of_default": 2.11,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20454545454545456
+    },
+    {
+      "account_id": 339,
+      "score": 838,
+      "probability_of_default": 2.09,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2625
+    },
+    {
+      "account_id": 8475,
+      "score": 838,
+      "probability_of_default": 2.08,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 11096,
+      "score": 838,
+      "probability_of_default": 2.08,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1111111111111111
+    },
+    {
+      "account_id": 10645,
+      "score": 838,
+      "probability_of_default": 2.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2413793103448276
+    },
+    {
+      "account_id": 1876,
+      "score": 838,
+      "probability_of_default": 2.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20512820512820512
+    },
+    {
+      "account_id": 6555,
+      "score": 838,
+      "probability_of_default": 2.01,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.425
+    },
+    {
+      "account_id": 11054,
+      "score": 839,
+      "probability_of_default": 1.99,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 3953,
+      "score": 839,
+      "probability_of_default": 1.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 5305,
+      "score": 839,
+      "probability_of_default": 1.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4074074074074074
+    },
+    {
+      "account_id": 10320,
+      "score": 839,
+      "probability_of_default": 1.97,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.0
+    },
+    {
+      "account_id": 1967,
+      "score": 839,
+      "probability_of_default": 1.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23333333333333334
+    },
+    {
+      "account_id": 3403,
+      "score": 839,
+      "probability_of_default": 1.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 5794,
+      "score": 839,
+      "probability_of_default": 1.96,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3103448275862069
+    },
+    {
+      "account_id": 3229,
+      "score": 839,
+      "probability_of_default": 1.93,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2247191011235955
+    },
+    {
+      "account_id": 4116,
+      "score": 839,
+      "probability_of_default": 1.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2777777777777778
+    },
+    {
+      "account_id": 7857,
+      "score": 839,
+      "probability_of_default": 1.92,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2727272727272727
+    },
+    {
+      "account_id": 6397,
+      "score": 839,
+      "probability_of_default": 1.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35714285714285715
+    },
+    {
+      "account_id": 10297,
+      "score": 839,
+      "probability_of_default": 1.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 11265,
+      "score": 839,
+      "probability_of_default": 1.91,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.22727272727272727
+    },
+    {
+      "account_id": 3916,
+      "score": 839,
+      "probability_of_default": 1.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3235294117647059
+    },
+    {
+      "account_id": 7401,
+      "score": 839,
+      "probability_of_default": 1.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.5625
+    },
+    {
+      "account_id": 10644,
+      "score": 839,
+      "probability_of_default": 1.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17647058823529413
+    },
+    {
+      "account_id": 9188,
+      "score": 839,
+      "probability_of_default": 1.88,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1111111111111111
+    },
+    {
+      "account_id": 11244,
+      "score": 839,
+      "probability_of_default": 1.88,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21739130434782608
+    },
+    {
+      "account_id": 7176,
+      "score": 839,
+      "probability_of_default": 1.87,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22580645161290322
+    },
+    {
+      "account_id": 9037,
+      "score": 839,
+      "probability_of_default": 1.86,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2826086956521739
+    },
+    {
+      "account_id": 319,
+      "score": 839,
+      "probability_of_default": 1.85,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26229508196721313
+    },
+    {
+      "account_id": 5118,
+      "score": 839,
+      "probability_of_default": 1.84,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.33
+    },
+    {
+      "account_id": 9140,
+      "score": 839,
+      "probability_of_default": 1.84,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17567567567567569
+    },
+    {
+      "account_id": 11362,
+      "score": 839,
+      "probability_of_default": 1.84,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.14102564102564102
+    },
+    {
+      "account_id": 4293,
+      "score": 839,
+      "probability_of_default": 1.83,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.47619047619047616
+    },
+    {
+      "account_id": 9640,
+      "score": 839,
+      "probability_of_default": 1.83,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.23958333333333334
+    },
+    {
+      "account_id": 5313,
+      "score": 840,
+      "probability_of_default": 1.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35714285714285715
+    },
+    {
+      "account_id": 5593,
+      "score": 840,
+      "probability_of_default": 1.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.42857142857142855
+    },
+    {
+      "account_id": 9179,
+      "score": 840,
+      "probability_of_default": 1.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.38636363636363635
+    },
+    {
+      "account_id": 10911,
+      "score": 840,
+      "probability_of_default": 1.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4444444444444444
+    },
+    {
+      "account_id": 4727,
+      "score": 840,
+      "probability_of_default": 1.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.09090909090909091
+    },
+    {
+      "account_id": 6924,
+      "score": 840,
+      "probability_of_default": 1.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5526315789473685
+    },
+    {
+      "account_id": 4354,
+      "score": 840,
+      "probability_of_default": 1.78,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.32894736842105265
+    },
+    {
+      "account_id": 4660,
+      "score": 840,
+      "probability_of_default": 1.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 5572,
+      "score": 840,
+      "probability_of_default": 1.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28
+    },
+    {
+      "account_id": 6061,
+      "score": 840,
+      "probability_of_default": 1.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 11271,
+      "score": 840,
+      "probability_of_default": 1.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1780821917808219
+    },
+    {
+      "account_id": 7559,
+      "score": 840,
+      "probability_of_default": 1.76,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.37209302325581395
+    },
+    {
+      "account_id": 11079,
+      "score": 840,
+      "probability_of_default": 1.76,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 2116,
+      "score": 840,
+      "probability_of_default": 1.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.35384615384615387
+    },
+    {
+      "account_id": 9730,
+      "score": 840,
+      "probability_of_default": 1.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.36363636363636365
+    },
+    {
+      "account_id": 11042,
+      "score": 840,
+      "probability_of_default": 1.74,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5
+    },
+    {
+      "account_id": 9265,
+      "score": 840,
+      "probability_of_default": 1.73,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25806451612903225
+    },
+    {
+      "account_id": 4476,
+      "score": 840,
+      "probability_of_default": 1.72,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22950819672131148
+    },
+    {
+      "account_id": 1244,
+      "score": 840,
+      "probability_of_default": 1.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.11428571428571428
+    },
+    {
+      "account_id": 5001,
+      "score": 840,
+      "probability_of_default": 1.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28888888888888886
+    },
+    {
+      "account_id": 9491,
+      "score": 840,
+      "probability_of_default": 1.7,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25925925925925924
+    },
+    {
+      "account_id": 4681,
+      "score": 840,
+      "probability_of_default": 1.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.26373626373626374
+    },
+    {
+      "account_id": 7437,
+      "score": 840,
+      "probability_of_default": 1.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.15625
+    },
+    {
+      "account_id": 7819,
+      "score": 840,
+      "probability_of_default": 1.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23076923076923078
+    },
+    {
+      "account_id": 10411,
+      "score": 840,
+      "probability_of_default": 1.69,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3
+    },
+    {
+      "account_id": 11231,
+      "score": 840,
+      "probability_of_default": 1.66,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20588235294117646
+    },
+    {
+      "account_id": 5228,
+      "score": 840,
+      "probability_of_default": 1.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.42857142857142855
+    },
+    {
+      "account_id": 7894,
+      "score": 840,
+      "probability_of_default": 1.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2719298245614035
+    },
+    {
+      "account_id": 7965,
+      "score": 840,
+      "probability_of_default": 1.64,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2608695652173913
+    },
+    {
+      "account_id": 8260,
+      "score": 840,
+      "probability_of_default": 1.64,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3389830508474576
+    },
+    {
+      "account_id": 226,
+      "score": 841,
+      "probability_of_default": 1.62,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.42
+    },
+    {
+      "account_id": 1603,
+      "score": 841,
+      "probability_of_default": 1.61,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2962962962962963
+    },
+    {
+      "account_id": 2062,
+      "score": 841,
+      "probability_of_default": 1.6,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2692307692307692
+    },
+    {
+      "account_id": 2720,
+      "score": 841,
+      "probability_of_default": 1.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.24074074074074073
+    },
+    {
+      "account_id": 11013,
+      "score": 841,
+      "probability_of_default": 1.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21428571428571427
+    },
+    {
+      "account_id": 10493,
+      "score": 841,
+      "probability_of_default": 1.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2
+    },
+    {
+      "account_id": 9627,
+      "score": 841,
+      "probability_of_default": 1.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3
+    },
+    {
+      "account_id": 10233,
+      "score": 841,
+      "probability_of_default": 1.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.19736842105263158
+    },
+    {
+      "account_id": 3143,
+      "score": 841,
+      "probability_of_default": 1.55,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.38333333333333336
+    },
+    {
+      "account_id": 9242,
+      "score": 841,
+      "probability_of_default": 1.55,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2
+    },
+    {
+      "account_id": 813,
+      "score": 841,
+      "probability_of_default": 1.53,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.43902439024390244
+    },
+    {
+      "account_id": 3754,
+      "score": 841,
+      "probability_of_default": 1.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21621621621621623
+    },
+    {
+      "account_id": 8268,
+      "score": 841,
+      "probability_of_default": 1.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21428571428571427
+    },
+    {
+      "account_id": 8523,
+      "score": 841,
+      "probability_of_default": 1.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5254237288135594
+    },
+    {
+      "account_id": 5269,
+      "score": 841,
+      "probability_of_default": 1.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4230769230769231
+    },
+    {
+      "account_id": 1083,
+      "score": 841,
+      "probability_of_default": 1.49,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2
+    },
+    {
+      "account_id": 2322,
+      "score": 841,
+      "probability_of_default": 1.49,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2692307692307692
+    },
+    {
+      "account_id": 5477,
+      "score": 841,
+      "probability_of_default": 1.49,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 8038,
+      "score": 841,
+      "probability_of_default": 1.49,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23333333333333334
+    },
+    {
+      "account_id": 3390,
+      "score": 841,
+      "probability_of_default": 1.48,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2413793103448276
+    },
+    {
+      "account_id": 10650,
+      "score": 841,
+      "probability_of_default": 1.48,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.09090909090909091
+    },
+    {
+      "account_id": 10351,
+      "score": 841,
+      "probability_of_default": 1.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.35526315789473684
+    },
+    {
+      "account_id": 8713,
+      "score": 842,
+      "probability_of_default": 1.45,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 9093,
+      "score": 842,
+      "probability_of_default": 1.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23333333333333334
+    },
+    {
+      "account_id": 10613,
+      "score": 842,
+      "probability_of_default": 1.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2916666666666667
+    },
+    {
+      "account_id": 1862,
+      "score": 842,
+      "probability_of_default": 1.41,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3050847457627119
+    },
+    {
+      "account_id": 6358,
+      "score": 842,
+      "probability_of_default": 1.4,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.43636363636363634
+    },
+    {
+      "account_id": 2073,
+      "score": 842,
+      "probability_of_default": 1.39,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4358974358974359
+    },
+    {
+      "account_id": 3489,
+      "score": 842,
+      "probability_of_default": 1.39,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 1762,
+      "score": 842,
+      "probability_of_default": 1.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25301204819277107
+    },
+    {
+      "account_id": 3293,
+      "score": 842,
+      "probability_of_default": 1.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.22018348623853212
+    },
+    {
+      "account_id": 3637,
+      "score": 842,
+      "probability_of_default": 1.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4074074074074074
+    },
+    {
+      "account_id": 10807,
+      "score": 842,
+      "probability_of_default": 1.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.24242424242424243
+    },
+    {
+      "account_id": 4414,
+      "score": 842,
+      "probability_of_default": 1.35,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2571428571428571
+    },
+    {
+      "account_id": 9591,
+      "score": 842,
+      "probability_of_default": 1.34,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2773109243697479
+    },
+    {
+      "account_id": 6273,
+      "score": 842,
+      "probability_of_default": 1.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21428571428571427
+    },
+    {
+      "account_id": 7674,
+      "score": 842,
+      "probability_of_default": 1.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.275
+    },
+    {
+      "account_id": 2705,
+      "score": 842,
+      "probability_of_default": 1.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2857142857142857
+    },
+    {
+      "account_id": 6062,
+      "score": 842,
+      "probability_of_default": 1.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5051546391752577
+    },
+    {
+      "account_id": 7614,
+      "score": 842,
+      "probability_of_default": 1.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3620689655172414
+    },
+    {
+      "account_id": 9433,
+      "score": 842,
+      "probability_of_default": 1.32,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.358974358974359
+    },
+    {
+      "account_id": 7546,
+      "score": 842,
+      "probability_of_default": 1.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3108108108108108
+    },
+    {
+      "account_id": 7815,
+      "score": 842,
+      "probability_of_default": 1.31,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1694915254237288
+    },
+    {
+      "account_id": 6985,
+      "score": 842,
+      "probability_of_default": 1.3,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5526315789473685
+    },
+    {
+      "account_id": 3005,
+      "score": 842,
+      "probability_of_default": 1.29,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.14285714285714285
+    },
+    {
+      "account_id": 1978,
+      "score": 842,
+      "probability_of_default": 1.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17204301075268819
+    },
+    {
+      "account_id": 1528,
+      "score": 843,
+      "probability_of_default": 1.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22448979591836735
+    },
+    {
+      "account_id": 10439,
+      "score": 843,
+      "probability_of_default": 1.26,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26666666666666666
+    },
+    {
+      "account_id": 4361,
+      "score": 843,
+      "probability_of_default": 1.25,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 9790,
+      "score": 843,
+      "probability_of_default": 1.25,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.125
+    },
+    {
+      "account_id": 2725,
+      "score": 843,
+      "probability_of_default": 1.24,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.38461538461538464
+    },
+    {
+      "account_id": 7099,
+      "score": 843,
+      "probability_of_default": 1.24,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.18699186991869918
+    },
+    {
+      "account_id": 9153,
+      "score": 843,
+      "probability_of_default": 1.23,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.28
+    },
+    {
+      "account_id": 10762,
+      "score": 843,
+      "probability_of_default": 1.23,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3448275862068966
+    },
+    {
+      "account_id": 5385,
+      "score": 843,
+      "probability_of_default": 1.22,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21212121212121213
+    },
+    {
+      "account_id": 2268,
+      "score": 843,
+      "probability_of_default": 1.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.27419354838709675
+    },
+    {
+      "account_id": 2580,
+      "score": 843,
+      "probability_of_default": 1.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2916666666666667
+    },
+    {
+      "account_id": 3329,
+      "score": 843,
+      "probability_of_default": 1.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2558139534883721
+    },
+    {
+      "account_id": 7765,
+      "score": 843,
+      "probability_of_default": 1.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2608695652173913
+    },
+    {
+      "account_id": 11138,
+      "score": 843,
+      "probability_of_default": 1.18,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1875
+    },
+    {
+      "account_id": 3608,
+      "score": 843,
+      "probability_of_default": 1.17,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.44871794871794873
+    },
+    {
+      "account_id": 4948,
+      "score": 843,
+      "probability_of_default": 1.17,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5217391304347826
+    },
+    {
+      "account_id": 4949,
+      "score": 843,
+      "probability_of_default": 1.17,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.24
+    },
+    {
+      "account_id": 6706,
+      "score": 843,
+      "probability_of_default": 1.16,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3978494623655914
+    },
+    {
+      "account_id": 816,
+      "score": 843,
+      "probability_of_default": 1.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.39705882352941174
+    },
+    {
+      "account_id": 6148,
+      "score": 843,
+      "probability_of_default": 1.14,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.59375
+    },
+    {
+      "account_id": 3556,
+      "score": 843,
+      "probability_of_default": 1.12,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.44642857142857145
+    },
+    {
+      "account_id": 5133,
+      "score": 843,
+      "probability_of_default": 1.12,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17857142857142858
+    },
+    {
+      "account_id": 5422,
+      "score": 843,
+      "probability_of_default": 1.11,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2903225806451613
+    },
+    {
+      "account_id": 3064,
+      "score": 843,
+      "probability_of_default": 1.1,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.25510204081632654
+    },
+    {
+      "account_id": 6453,
+      "score": 843,
+      "probability_of_default": 1.1,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32407407407407407
+    },
+    {
+      "account_id": 10789,
+      "score": 843,
+      "probability_of_default": 1.09,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21212121212121213
+    },
+    {
+      "account_id": 6472,
+      "score": 844,
+      "probability_of_default": 1.06,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.37209302325581395
+    },
+    {
+      "account_id": 8742,
+      "score": 844,
+      "probability_of_default": 1.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 854,
+      "score": 844,
+      "probability_of_default": 1.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21495327102803738
+    },
+    {
+      "account_id": 2143,
+      "score": 844,
+      "probability_of_default": 1.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26666666666666666
+    },
+    {
+      "account_id": 3747,
+      "score": 844,
+      "probability_of_default": 1.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4
+    },
+    {
+      "account_id": 5774,
+      "score": 844,
+      "probability_of_default": 1.04,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.18181818181818182
+    },
+    {
+      "account_id": 9208,
+      "score": 844,
+      "probability_of_default": 1.03,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.38461538461538464
+    },
+    {
+      "account_id": 38,
+      "score": 844,
+      "probability_of_default": 1.02,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.1875
+    },
+    {
+      "account_id": 7123,
+      "score": 844,
+      "probability_of_default": 1.02,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 9030,
+      "score": 844,
+      "probability_of_default": 1.02,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22549019607843138
+    },
+    {
+      "account_id": 9307,
+      "score": 844,
+      "probability_of_default": 1.01,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3
+    },
+    {
+      "account_id": 5541,
+      "score": 844,
+      "probability_of_default": 1.0,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3235294117647059
+    },
+    {
+      "account_id": 3674,
+      "score": 844,
+      "probability_of_default": 0.99,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.3114754098360656
+    },
+    {
+      "account_id": 8330,
+      "score": 844,
+      "probability_of_default": 0.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4666666666666667
+    },
+    {
+      "account_id": 9422,
+      "score": 844,
+      "probability_of_default": 0.98,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23076923076923078
+    },
+    {
+      "account_id": 2343,
+      "score": 844,
+      "probability_of_default": 0.97,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.32142857142857145
+    },
+    {
+      "account_id": 3679,
+      "score": 844,
+      "probability_of_default": 0.95,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.24324324324324326
+    },
+    {
+      "account_id": 9227,
+      "score": 844,
+      "probability_of_default": 0.94,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1
+    },
+    {
+      "account_id": 2694,
+      "score": 845,
+      "probability_of_default": 0.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23255813953488372
+    },
+    {
+      "account_id": 6686,
+      "score": 845,
+      "probability_of_default": 0.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34210526315789475
+    },
+    {
+      "account_id": 8625,
+      "score": 845,
+      "probability_of_default": 0.9,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3076923076923077
+    },
+    {
+      "account_id": 1375,
+      "score": 845,
+      "probability_of_default": 0.89,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.45614035087719296
+    },
+    {
+      "account_id": 785,
+      "score": 845,
+      "probability_of_default": 0.88,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3684210526315789
+    },
+    {
+      "account_id": 2000,
+      "score": 845,
+      "probability_of_default": 0.86,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23728813559322035
+    },
+    {
+      "account_id": 4190,
+      "score": 845,
+      "probability_of_default": 0.86,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2782608695652174
+    },
+    {
+      "account_id": 8114,
+      "score": 845,
+      "probability_of_default": 0.85,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21212121212121213
+    },
+    {
+      "account_id": 8321,
+      "score": 845,
+      "probability_of_default": 0.84,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23255813953488372
+    },
+    {
+      "account_id": 9377,
+      "score": 845,
+      "probability_of_default": 0.83,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22988505747126436
+    },
+    {
+      "account_id": 1011,
+      "score": 845,
+      "probability_of_default": 0.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.325
+    },
+    {
+      "account_id": 4473,
+      "score": 845,
+      "probability_of_default": 0.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23728813559322035
+    },
+    {
+      "account_id": 8492,
+      "score": 845,
+      "probability_of_default": 0.82,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4489795918367347
+    },
+    {
+      "account_id": 8489,
+      "score": 845,
+      "probability_of_default": 0.81,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.27380952380952384
+    },
+    {
+      "account_id": 10022,
+      "score": 845,
+      "probability_of_default": 0.8,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20833333333333334
+    },
+    {
+      "account_id": 4415,
+      "score": 845,
+      "probability_of_default": 0.79,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2808219178082192
+    },
+    {
+      "account_id": 7190,
+      "score": 845,
+      "probability_of_default": 0.79,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.34285714285714286
+    },
+    {
+      "account_id": 8051,
+      "score": 845,
+      "probability_of_default": 0.79,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.4230769230769231
+    },
+    {
+      "account_id": 11065,
+      "score": 845,
+      "probability_of_default": 0.78,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2978723404255319
+    },
+    {
+      "account_id": 6922,
+      "score": 845,
+      "probability_of_default": 0.77,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.36923076923076925
+    },
+    {
+      "account_id": 303,
+      "score": 845,
+      "probability_of_default": 0.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3902439024390244
+    },
+    {
+      "account_id": 7454,
+      "score": 845,
+      "probability_of_default": 0.75,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23404255319148937
+    },
+    {
+      "account_id": 97,
+      "score": 845,
+      "probability_of_default": 0.73,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23529411764705882
+    },
+    {
+      "account_id": 1329,
+      "score": 845,
+      "probability_of_default": 0.73,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1794871794871795
+    },
+    {
+      "account_id": 817,
+      "score": 846,
+      "probability_of_default": 0.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3333333333333333
+    },
+    {
+      "account_id": 10774,
+      "score": 846,
+      "probability_of_default": 0.71,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.391304347826087
+    },
+    {
+      "account_id": 9859,
+      "score": 846,
+      "probability_of_default": 0.7,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.19402985074626866
+    },
+    {
+      "account_id": 9731,
+      "score": 846,
+      "probability_of_default": 0.67,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3617021276595745
+    },
+    {
+      "account_id": 8027,
+      "score": 846,
+      "probability_of_default": 0.66,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23684210526315788
+    },
+    {
+      "account_id": 9928,
+      "score": 846,
+      "probability_of_default": 0.65,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 3354,
+      "score": 846,
+      "probability_of_default": 0.64,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.18518518518518517
+    },
+    {
+      "account_id": 4825,
+      "score": 846,
+      "probability_of_default": 0.64,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.4318181818181818
+    },
+    {
+      "account_id": 4550,
+      "score": 846,
+      "probability_of_default": 0.61,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.14
+    },
+    {
+      "account_id": 5574,
+      "score": 846,
+      "probability_of_default": 0.6,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.30097087378640774
+    },
+    {
+      "account_id": 110,
+      "score": 846,
+      "probability_of_default": 0.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2857142857142857
+    },
+    {
+      "account_id": 11327,
+      "score": 846,
+      "probability_of_default": 0.59,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.22580645161290322
+    },
+    {
+      "account_id": 8972,
+      "score": 846,
+      "probability_of_default": 0.58,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.10526315789473684
+    },
+    {
+      "account_id": 7184,
+      "score": 846,
+      "probability_of_default": 0.57,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1794871794871795
+    },
+    {
+      "account_id": 525,
+      "score": 846,
+      "probability_of_default": 0.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.26666666666666666
+    },
+    {
+      "account_id": 4981,
+      "score": 846,
+      "probability_of_default": 0.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.3225806451612903
+    },
+    {
+      "account_id": 8405,
+      "score": 846,
+      "probability_of_default": 0.56,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.16483516483516483
+    },
+    {
+      "account_id": 4863,
+      "score": 847,
+      "probability_of_default": 0.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17857142857142858
+    },
+    {
+      "account_id": 7562,
+      "score": 847,
+      "probability_of_default": 0.52,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.29411764705882354
+    },
+    {
+      "account_id": 1256,
+      "score": 847,
+      "probability_of_default": 0.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2807017543859649
+    },
+    {
+      "account_id": 2456,
+      "score": 847,
+      "probability_of_default": 0.5,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2222222222222222
+    },
+    {
+      "account_id": 666,
+      "score": 847,
+      "probability_of_default": 0.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.205607476635514
+    },
+    {
+      "account_id": 6792,
+      "score": 847,
+      "probability_of_default": 0.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.24444444444444444
+    },
+    {
+      "account_id": 8919,
+      "score": 847,
+      "probability_of_default": 0.46,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.32432432432432434
+    },
+    {
+      "account_id": 276,
+      "score": 847,
+      "probability_of_default": 0.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.23529411764705882
+    },
+    {
+      "account_id": 7133,
+      "score": 847,
+      "probability_of_default": 0.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.20634920634920634
+    },
+    {
+      "account_id": 10215,
+      "score": 847,
+      "probability_of_default": 0.44,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21428571428571427
+    },
+    {
+      "account_id": 10445,
+      "score": 847,
+      "probability_of_default": 0.42,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.42696629213483145
+    },
+    {
+      "account_id": 6040,
+      "score": 847,
+      "probability_of_default": 0.4,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.21649484536082475
+    },
+    {
+      "account_id": 10905,
+      "score": 847,
+      "probability_of_default": 0.36,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 0,
+      "end_of_month_spending_prop": 0.2413793103448276
+    },
+    {
+      "account_id": 344,
+      "score": 848,
+      "probability_of_default": 0.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.5348837209302325
+    },
+    {
+      "account_id": 7082,
+      "score": 848,
+      "probability_of_default": 0.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.17391304347826086
+    },
+    {
+      "account_id": 10440,
+      "score": 848,
+      "probability_of_default": 0.33,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.21348314606741572
+    },
+    {
+      "account_id": 9159,
+      "score": 848,
+      "probability_of_default": 0.28,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2638888888888889
+    },
+    {
+      "account_id": 7181,
+      "score": 848,
+      "probability_of_default": 0.27,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.267515923566879
+    },
+    {
+      "account_id": 3050,
+      "score": 848,
+      "probability_of_default": 0.22,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2608695652173913
+    },
+    {
+      "account_id": 2728,
+      "score": 848,
+      "probability_of_default": 0.21,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2894736842105263
+    },
+    {
+      "account_id": 2352,
+      "score": 848,
+      "probability_of_default": 0.19,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25316455696202533
+    },
+    {
+      "account_id": 2134,
+      "score": 849,
+      "probability_of_default": 0.18,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.25
+    },
+    {
+      "account_id": 10148,
+      "score": 848,
+      "probability_of_default": 0.18,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.1875
+    },
+    {
+      "account_id": 2986,
+      "score": 849,
+      "probability_of_default": 0.05,
+      "tier": "Premium",
+      "status": "Cleared",
+      "zero_balance_freq": 1,
+      "end_of_month_spending_prop": 0.2631578947368421
+    }
+  ]
+}
