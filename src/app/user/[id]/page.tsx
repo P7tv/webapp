@@ -50,9 +50,9 @@ export default function KrungsriUserApp() {
   }
 
   const { financial_summary } = data;
-  const availableBalance = Math.max(0, financial_summary.total_income - financial_summary.total_expense);
+  const availableBalance = Math.max(0, financial_summary.total_income + financial_summary.total_expense);
   const formatter = new Intl.NumberFormat('th-TH', { style: 'currency', currency: 'THB' });
-  const formatNum = (num: number) => new Intl.NumberFormat('th-TH').format(num);
+  const formatNum = (num: number) => new Intl.NumberFormat('th-TH').format(Math.abs(num));
 
   return (
     <div className="min-h-screen bg-[#f8f9fa] flex justify-center font-sans selection:bg-amber-200">
@@ -107,7 +107,7 @@ export default function KrungsriUserApp() {
                   <div className="w-6 h-6 rounded-full bg-emerald-50 flex items-center justify-center">
                     <ArrowLeft className="w-3.5 h-3.5 rotate-45" />
                   </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider">เงินเข้า (ด.)</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider">เงินเข้าสะสม</span>
                 </div>
                 <p className="text-sm font-bold text-slate-800">{formatNum(financial_summary.total_income)} ฿</p>
               </div>
@@ -117,7 +117,7 @@ export default function KrungsriUserApp() {
                   <div className="w-6 h-6 rounded-full bg-rose-50 flex items-center justify-center">
                     <ArrowLeft className="w-3.5 h-3.5 -rotate-[135deg]" />
                   </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider">เงินออก (ด.)</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider">เงินออกสะสม</span>
                 </div>
                 <p className="text-sm font-bold text-slate-800">{formatNum(financial_summary.total_expense)} ฿</p>
               </div>
