@@ -107,9 +107,9 @@ export default function KrungsriUserApp() {
                   <div className="w-6 h-6 rounded-full bg-emerald-50 flex items-center justify-center">
                     <ArrowLeft className="w-3.5 h-3.5 rotate-45" />
                   </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider">เงินเข้าสะสม</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider">สัดส่วนเงินเข้า</span>
                 </div>
-                <p className="text-sm font-bold text-slate-800">{formatNum(financial_summary.total_income)} ฿</p>
+                <p className="text-sm font-bold text-slate-800">{financial_summary.inflow_pct}%</p>
               </div>
               <div className="w-px h-10 bg-slate-100"></div>
               <div className="flex-1 flex flex-col items-center">
@@ -117,9 +117,9 @@ export default function KrungsriUserApp() {
                   <div className="w-6 h-6 rounded-full bg-rose-50 flex items-center justify-center">
                     <ArrowLeft className="w-3.5 h-3.5 -rotate-[135deg]" />
                   </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider">เงินออกสะสม</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider">สัดส่วนเงินออก</span>
                 </div>
-                <p className="text-sm font-bold text-slate-800">{formatNum(financial_summary.total_expense)} ฿</p>
+                <p className="text-sm font-bold text-slate-800">{financial_summary.outflow_pct}%</p>
               </div>
             </div>
           </div>
