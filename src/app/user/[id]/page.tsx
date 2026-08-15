@@ -135,7 +135,9 @@ export default function KrungsriUserApp() {
                 <p className="text-sm font-bold text-amber-400 truncate">{data.transaction_score?.tier || 'สมาชิกทั่วไป'}</p>
               </div>
             </div>
-            <button className="text-[10px] shrink-0 font-bold bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap">
+            <button 
+              onClick={() => document.getElementById('benefits-section')?.scrollIntoView({ behavior: 'smooth' })}
+              className="text-[10px] shrink-0 font-bold bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap">
               ดูสิทธิประโยชน์
             </button>
           </div>
@@ -169,7 +171,7 @@ export default function KrungsriUserApp() {
           </div>
 
           {/* Smart Offers / Services (Hidden AI Output) */}
-          <div className="space-y-3">
+          <div id="benefits-section" className="space-y-3 pt-2">
             <div className="flex justify-between items-center px-1">
               <h3 className="text-slate-800 font-bold text-sm">บริการแนะนำสำหรับคุณ</h3>
               <button className="text-amber-600 text-xs font-bold hover:underline">ดูทั้งหมด</button>
