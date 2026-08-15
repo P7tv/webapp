@@ -15,6 +15,7 @@ export default function KrungsriUserApp() {
   const router = useRouter();
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const [showBenefits, setShowBenefits] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -136,7 +137,7 @@ export default function KrungsriUserApp() {
               </div>
             </div>
             <button 
-              onClick={() => document.getElementById('benefits-section')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => setShowBenefits(true)}
               className="text-[10px] shrink-0 font-bold bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap">
               ดูสิทธิประโยชน์
             </button>
@@ -224,6 +225,75 @@ export default function KrungsriUserApp() {
             <span className="text-[10px] font-semibold mt-1">แจ้งเตือน</span>
           </button>
         </div>
+
+        {/* Benefits Detail Modal (BottomSheet) */}
+        {showBenefits && (
+          <div className="absolute inset-0 z-[100] bg-black/60 flex items-end justify-center animate-in fade-in duration-200">
+            <div className="bg-slate-50 w-full h-[85%] rounded-t-3xl shadow-2xl flex flex-col animate-in slide-in-from-bottom-8 duration-300">
+              
+              {/* Modal Header */}
+              <div className="flex justify-between items-center p-5 border-b border-slate-200 bg-white rounded-t-3xl">
+                <h3 className="font-bold text-slate-900 text-lg flex items-center gap-2">
+                  <Gift className="w-5 h-5 text-amber-500" /> รายละเอียดสิทธิประโยชน์
+                </h3>
+                <button 
+                  onClick={() => setShowBenefits(false)} 
+                  className="w-8 h-8 flex items-center justify-center bg-slate-100 text-slate-500 rounded-full hover:bg-slate-200 transition-colors"
+                >
+                  <span className="font-bold text-sm">✕</span>
+                </button>
+              </div>
+
+              {/* Modal Content */}
+              <div className="p-5 overflow-y-auto flex-1 space-y-5">
+                <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-6 text-white text-center shadow-lg relative overflow-hidden">
+                  <div className="absolute -right-4 -top-4 opacity-10">
+                    <Sparkles className="w-24 h-24" />
+                  </div>
+                  <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest mb-2">สถานะบัญชีปัจจุบัน</p>
+                  <h4 className="text-2xl font-extrabold text-amber-400 mb-2 drop-shadow-md">
+                    {data.transaction_score?.tier || 'สมาชิกทั่วไป'}
+                  </h4>
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    ระบบ AI ได้ประเมินวินัยทางการเงินและสัดส่วนรายรับรายจ่ายของคุณให้อยู่ในเกณฑ์ <span className="font-bold text-white">ดีเยี่ยม</span> คุณจึงได้รับสิทธิ์ในการเข้าถึงบริการเหล่านี้
+                  </p>
+                </div>
+                
+                <div>
+                  <h4 className="font-bold text-slate-800 text-sm mb-3 px-1">บริการที่คุณได้รับสิทธิ์อนุมัติล่วงหน้า</h4>
+                  <div className="space-y-3">
+                    {(data.accessible_services || []).map((service: string, idx: number) => (
+                      <div key={idx} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 flex gap-3 group hover:border-amber-200 transition-colors">
+                        <div className="mt-1 shrink-0">
+                          <div className="w-8 h-8 rounded-full bg-amber-50 flex items-center justify-center">
+                            <Sparkles className="w-4 h-4 text-amber-500" />
+                          </div>
+                        </div>
+                        <div>
+                          <p className="text-sm font-bold text-slate-800 group-hover:text-amber-600 transition-colors">{service}</p>
+                          <p className="text-[11px] text-slate-500 mt-1.5 leading-relaxed">
+                            สิทธิพิเศษนี้คัดสรรมาเพื่อบัญชีของคุณโดยเฉพาะ สามารถกดใช้งานได้ทันทีโดยไม่ต้องยื่นเอกสารรายได้เพิ่มเติม
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              
+              {/* Modal Footer */}
+              <div className="p-5 bg-white border-t border-slate-100">
+                <button 
+                  onClick={() => setShowBenefits(false)}
+                  className="w-full bg-[#FBBF24] hover:bg-amber-500 text-slate-900 font-bold py-3.5 rounded-xl shadow-sm transition-colors"
+                >
+                  รับทราบ
+                </button>
+              </div>
+
+            </div>
+          </div>
+        )}
 
       </div>
     </div>
