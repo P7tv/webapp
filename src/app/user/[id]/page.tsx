@@ -125,17 +125,17 @@ export default function KrungsriUserApp() {
           </div>
 
           {/* Member Tier Banner (Gamified Score) */}
-          <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-4 shadow-lg border border-slate-700 flex items-center justify-between text-white">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-300 to-amber-500 flex items-center justify-center shadow-inner">
+          <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-4 shadow-lg border border-slate-700 flex items-center justify-between text-white gap-2">
+            <div className="flex items-center gap-3 flex-1 min-w-0">
+              <div className="w-10 h-10 shrink-0 rounded-full bg-gradient-to-br from-amber-300 to-amber-500 flex items-center justify-center shadow-inner">
                 <Sparkles className="w-5 h-5 text-amber-900" />
               </div>
-              <div>
-                <p className="text-[10px] text-slate-300 font-bold uppercase tracking-wider mb-0.5">สถานะบัญชีของคุณ</p>
-                <p className="text-sm font-bold text-amber-400">{data.transaction_score?.tier || 'สมาชิกทั่วไป'}</p>
+              <div className="flex-1 min-w-0">
+                <p className="text-[10px] text-slate-300 font-bold uppercase tracking-wider mb-0.5 truncate">สถานะบัญชีของคุณ</p>
+                <p className="text-sm font-bold text-amber-400 truncate">{data.transaction_score?.tier || 'สมาชิกทั่วไป'}</p>
               </div>
             </div>
-            <button className="text-[10px] font-bold bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors">
+            <button className="text-[10px] shrink-0 font-bold bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap">
               ดูสิทธิประโยชน์
             </button>
           </div>
