@@ -89,7 +89,7 @@ export default function KrungsriUserApp() {
         </div>
 
         {/* Scrollable Content */}
-        <div className="flex-1 overflow-y-auto pb-8 -mt-16 px-5 space-y-6 z-10 relative">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden pb-8 -mt-16 px-5 space-y-6 z-10 relative">
           
           {/* Main Account Balance Card */}
           <div className="bg-white rounded-3xl p-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100">
@@ -175,7 +175,7 @@ export default function KrungsriUserApp() {
               <button className="text-amber-600 text-xs font-bold hover:underline">ดูทั้งหมด</button>
             </div>
             
-            <div className="grid gap-3">
+            <div className="flex flex-col gap-3 w-full">
               {(data.accessible_services || []).map((service: string, idx: number) => {
                 // Pick different icons and colors for variety
                 const icons = [Sparkles, PiggyBank, CreditCard];
@@ -192,7 +192,7 @@ export default function KrungsriUserApp() {
                       <p className="text-sm font-bold text-slate-800 truncate group-hover:text-amber-600 transition-colors">{service}</p>
                       <p className="text-[11px] text-slate-500 mt-0.5">สิทธิพิเศษเฉพาะบัญชีคุณเท่านั้น</p>
                     </div>
-                    <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-amber-500" />
+                    <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-amber-500 shrink-0" />
                   </div>
                 )
               })}
