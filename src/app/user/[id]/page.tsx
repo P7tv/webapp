@@ -4,18 +4,18 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useRouter } from "next/navigation";
 import { 
-  ArrowLeft, Bell, ScanLine, Send, Smartphone, 
-  Receipt, WalletCards, ChevronRight, Gift,
-  Sparkles, PiggyBank, CreditCard, Activity
+  ArrowLeft, Bell, WalletCards, Activity, 
+  Search, ShieldCheck, Scale, Landmark, ChevronRight, TrendingUp, PieChart as PieChartIcon
 } from "lucide-react";
 import clsx from "clsx";
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 
 export default function KrungsriUserApp() {
   const { id } = useParams();
   const router = useRouter();
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [showBenefits, setShowBenefits] = useState(false);
+  const [activeTab, setActiveTab] = useState<"home" | "account" | "product">("home");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -34,7 +34,7 @@ export default function KrungsriUserApp() {
   if (loading) {
     return (
       <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center font-sans">
-        <div className="w-12 h-12 border-4 border-amber-400 border-t-transparent rounded-full animate-spin"></div>
+        <div className="w-12 h-12 border-4 border-[#FBBF24] border-t-transparent rounded-full animate-spin"></div>
         <p className="text-slate-500 text-sm font-medium animate-pulse mt-4">กำลังโหลดข้อมูลบัญชี...</p>
       </div>
     );
@@ -44,23 +44,278 @@ export default function KrungsriUserApp() {
     return (
       <div className="min-h-screen bg-slate-50 flex items-center justify-center">
         <p className="text-red-500 font-semibold bg-red-50 px-6 py-4 rounded-xl border border-red-100 shadow-sm">
-          ไม่พบบัญชีผู้ใช้
+          ไม่พบข้อมูลบัญชี
         </p>
       </div>
     );
   }
 
-  const { financial_summary } = data;
-  const availableBalance = Math.max(0, financial_summary.total_income + financial_summary.total_expense);
+  const { financial_summary, transaction_score } = data;
+  const availableBalance = Math.max(0, financial_summary.total_income + financial_summary.total_expense); // total_expense is negative
   const formatter = new Intl.NumberFormat('th-TH', { style: 'currency', currency: 'THB' });
-  const formatNum = (num: number) => new Intl.NumberFormat('th-TH').format(Math.abs(num));
+  
+  // Mock Category Data for Chart
+  const pieData = [
+    { name: 'เงินเข้า', value: financial_summary.inflow_pct, color: '#10b981' },
+    { name: 'เงินออก', value: financial_summary.outflow_pct, color: '#f43f5e' }
+  ];
+
+  const renderHomeTab = () => (
+    <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+      <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
+        <h3 className="text-slate-800 font-bold mb-4 text-center">เงินเข้า/ออกไป Category ไหนบ้าง</h3>
+        <div className="h-48 w-full relative">
+          <ResponsiveContainer width="100%" height="100%">
+            <PieChart>
+              <Pie
+                data={pieData}
+                cx="50%"
+                cy="50%"
+                innerRadius={60}
+                outerRadius={80}
+                paddingAngle={5}
+                dataKey="value"
+                stroke="none"
+              >
+                {pieData.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={entry.color} />
+                ))}
+              </Pie>
+              <Tooltip formatter={(val) => `${val}%`} />
+            </PieChart>
+          </ResponsiveContainer>
+          <div className="absolute inset-0 flex items-center justify-center flex-col pointer-events-none">
+            <span className="text-2xl font-bold text-slate-800">{financial_summary.inflow_pct}%</span>
+            <span className="text-xs font-semibold text-slate-500 uppercase">เงินเข้า</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700 text-white relative overflow-hidden">
+        <div className="relative z-10 flex flex-col items-center text-center">
+          <p className="text-sm text-slate-300 font-bold uppercase tracking-widest mb-1">Transaction Score</p>
+          <h2 className="text-4xl font-extrabold text-[#FBBF24] mb-2">{transaction_score.score}</h2>
+          <p className="text-sm font-medium text-slate-300">
+            สถานะ: <span className="text-white">{transaction_score.tier}</span>
+          </p>
+          <div className="mt-4 bg-white/10 rounded-xl p-3 w-full backdrop-blur-sm border border-white/10">
+            <p className="text-xs text-slate-200">Spending Insight: คุณมีวินัยการเงินที่ดี มีสัดส่วนรายรับรายจ่ายที่เหมาะสม</p>
+          </div>
+        </div>
+        <TrendingUp className="absolute -right-6 -bottom-6 w-32 h-32 text-white opacity-5" />
+      </div>
+    </div>
+  );
+
+  const renderAccountTab = () => (
+    <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+      <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
+        <div className="text-center mb-6 mt-2">
+          <p className="text-slate-500 text-sm font-medium mb-1">ยอดเงินหมุนเวียนรวม</p>
+          <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+            {formatter.format(availableBalance).replace('฿', '')} <span className="text-xl font-bold text-slate-500">฿</span>
+          </h1>
+        </div>
+        <div className="flex justify-between items-center pt-5 border-t border-slate-100">
+          <div className="flex-1 flex flex-col items-center">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-600 mb-1">เงินเข้ารวม</span>
+            <p className="text-sm font-bold text-slate-800">{formatter.format(financial_summary.total_income)}</p>
+          </div>
+          <div className="w-px h-10 bg-slate-100"></div>
+          <div className="flex-1 flex flex-col items-center">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-rose-500 mb-1">เงินออกรวม</span>
+            <p className="text-sm font-bold text-slate-800">{formatter.format(Math.abs(financial_summary.total_expense))}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white rounded-3xl p-5 shadow-sm border border-slate-100 space-y-4">
+        <h3 className="font-bold text-slate-800 text-sm">Dashboard วิเคราะห์ Cash Flow</h3>
+        
+        <div className="space-y-3">
+          <div className="flex justify-between items-center p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                <Landmark className="w-4 h-4" />
+              </div>
+              <span className="text-sm font-semibold text-slate-700">ช่องทางเงินเข้า</span>
+            </div>
+            <span className="text-sm font-bold text-slate-900">3 ช่องทาง</span>
+          </div>
+
+          <div className="flex justify-between items-center p-3 bg-slate-50 rounded-xl border border-slate-100">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600">
+                <Activity className="w-4 h-4" />
+              </div>
+              <span className="text-sm font-semibold text-slate-700">สภาพคล่อง (Cash Flow)</span>
+            </div>
+            <span className="text-sm font-bold text-emerald-600">เป็นบวกต่อเนื่อง</span>
+          </div>
+          
+          <div className="flex flex-col gap-1 p-3 bg-slate-50 rounded-xl border border-slate-100">
+             <span className="text-xs font-semibold text-slate-500 mb-1">จำนวนเงินเข้าแยกบัญชีของคุณ</span>
+             <div className="flex justify-between text-sm">
+                <span className="text-slate-700">บช. หลัก (Krungsri)</span>
+                <span className="font-bold text-slate-900">{formatter.format(financial_summary.total_income * 0.7)}</span>
+             </div>
+             <div className="flex justify-between text-sm">
+                <span className="text-slate-700">บช. อื่นๆ</span>
+                <span className="font-bold text-slate-900">{formatter.format(financial_summary.total_income * 0.3)}</span>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const renderProductTab = () => (
+    <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+      <div className="relative">
+        <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <Search className="h-5 w-5 text-slate-400" />
+        </div>
+        <input
+          type="text"
+          placeholder="คุณกำลังมองหา?"
+          className="block w-full pl-11 pr-3 py-3.5 bg-white border border-slate-200 rounded-2xl text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-[#FBBF24] focus:border-transparent transition-all"
+        />
+      </div>
+
+      <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-2xl p-5 shadow-lg flex items-center justify-between">
+        <div className="text-white">
+          <p className="text-xs font-semibold text-slate-300 uppercase tracking-wide">Transaction Score ของคุณ</p>
+          <div className="flex items-end gap-2 mt-1">
+            <span className="text-3xl font-bold text-[#FBBF24]">{transaction_score.score}</span>
+          </div>
+        </div>
+        <ShieldCheck className="w-10 h-10 text-emerald-400" />
+      </div>
+
+      <div className="space-y-5 pt-2 pb-4">
+        <div>
+          <div className="flex justify-between items-end mb-3">
+            <h3 className="font-bold text-slate-800 text-sm">หมวดการออมและการลงทุน (Saving)</h3>
+            <p className="text-[10px] text-slate-500">ตามระดับความเสี่ยงและดอกเบี้ย</p>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-3">
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer">
+              <div>
+                <span className="text-sm font-bold text-slate-800 block mb-1.5">เงินฝากดอกเบี้ยสูง</span>
+                <span className="text-[10px] bg-emerald-50 text-emerald-600 px-1.5 py-0.5 rounded font-semibold border border-emerald-100">ความเสี่ยงต่ำ</span>
+                <p className="text-[10px] text-slate-500 mt-1.5">ดอกเบี้ย 1.5 - 2.5% ต่อปี</p>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">รวมทุกธนาคาร</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer">
+              <div>
+                <span className="text-sm font-bold text-slate-800 block mb-1.5">กองทุนรวม (SSF/RMF)</span>
+                <span className="text-[10px] bg-amber-50 text-amber-600 px-1.5 py-0.5 rounded font-semibold border border-amber-100">ความเสี่ยงปานกลาง</span>
+                <p className="text-[10px] text-slate-500 mt-1.5">คาดหวังผลตอบแทน 4-8%</p>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">รวมทุก บลจ.</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer col-span-2">
+              <div className="flex justify-between items-start">
+                <div>
+                  <span className="text-sm font-bold text-slate-800 block mb-1.5">ประกันสะสมทรัพย์</span>
+                  <div className="flex gap-1.5">
+                    <span className="text-[10px] bg-emerald-50 text-emerald-600 px-1.5 py-0.5 rounded font-semibold border border-emerald-100">ความเสี่ยงต่ำมาก</span>
+                    <span className="text-[10px] bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-semibold border border-blue-100">ลดหย่อนภาษี</span>
+                  </div>
+                </div>
+                <div className="text-right">
+                  <p className="text-[10px] text-slate-500">ผลตอบแทน IRR 2-3%</p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">เปรียบเทียบจากทุกบริษัทประกัน</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="flex justify-between items-end mb-3">
+            <h3 className="font-bold text-slate-800 text-sm">หมวดสินเชื่อ (Loans)</h3>
+            <p className="text-[10px] text-slate-500">ตามอัตราดอกเบี้ย</p>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-3">
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer">
+              <div>
+                <span className="text-sm font-bold text-slate-800 block mb-1.5">สินเชื่อส่วนบุคคล</span>
+                <span className="text-[10px] bg-rose-50 text-rose-600 px-1.5 py-0.5 rounded font-semibold border border-rose-100">ดอกเบี้ย 15-25%</span>
+                <p className="text-[10px] text-slate-500 mt-1.5">อนุมัติไว ไม่ต้องค้ำ</p>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">รวมทุกธนาคาร</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer">
+              <div>
+                <span className="text-sm font-bold text-slate-800 block mb-1.5">บัตรเครดิต</span>
+                <span className="text-[10px] bg-indigo-50 text-indigo-600 px-1.5 py-0.5 rounded font-semibold border border-indigo-100">ดอกเบี้ย 16%</span>
+                <p className="text-[10px] text-slate-500 mt-1.5">ระยะเวลาปลอดดอก 45 วัน</p>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">รวมทุกธนาคาร</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer">
+              <div>
+                <span className="text-sm font-bold text-slate-800 block mb-1.5">สินเชื่อบ้าน</span>
+                <span className="text-[10px] bg-emerald-50 text-emerald-600 px-1.5 py-0.5 rounded font-semibold border border-emerald-100">ดอกเบี้ย 3-5%</span>
+                <p className="text-[10px] text-slate-500 mt-1.5">คงที่ 3 ปีแรก</p>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">รวมทุกธนาคาร</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between hover:border-[#FBBF24] transition-colors cursor-pointer">
+              <div>
+                <span className="text-sm font-bold text-slate-800 block mb-1.5">สินเชื่อรถยนต์</span>
+                <span className="text-[10px] bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-semibold border border-blue-100">ดอกเบี้ย 2-4%</span>
+                <p className="text-[10px] text-slate-500 mt-1.5">ดอกเบี้ยคงที่ตลอดอายุ</p>
+              </div>
+              <div className="flex justify-between items-center mt-3 pt-2 border-t border-slate-50">
+                <span className="text-[9px] text-slate-400 font-medium">รวมทุกธนาคาร</span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-300" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button className="w-full bg-white border border-slate-200 hover:border-[#FBBF24] shadow-sm p-4 rounded-2xl flex items-center justify-center gap-3 transition-colors text-slate-800 font-bold group">
+        <Scale className="w-5 h-5 text-slate-400 group-hover:text-[#FBBF24] transition-colors" />
+        เทียบผลิตภัณฑ์ (เหมือน Spec คอม)
+      </button>
+
+    </div>
+  );
 
   return (
-    <div className="min-h-screen bg-[#f8f9fa] flex justify-center font-sans selection:bg-amber-200">
-      {/* Mobile Device Container */}
+    <div className="min-h-screen bg-[#f8f9fa] flex justify-center font-sans selection:bg-[#FBBF24]/30">
       <div className="w-full max-w-[400px] bg-[#f8f9fa] shadow-2xl relative overflow-hidden flex flex-col">
         
-        {/* App Header (Yellow) */}
+        {/* App Header */}
         <div className="bg-[#FBBF24] pt-12 pb-24 px-6 rounded-b-[40px] relative z-0 shadow-sm">
           <div className="flex justify-between items-center mb-6">
             <button 
@@ -72,228 +327,59 @@ export default function KrungsriUserApp() {
             <div className="font-bold text-slate-900 text-lg tracking-tight">KMA Demo</div>
             <button className="text-slate-900 hover:bg-black/10 p-2 rounded-full transition-colors relative">
               <Bell className="w-6 h-6" />
-              <span className="absolute top-2 right-2 w-2.5 h-2.5 bg-red-500 border-2 border-[#FBBF24] rounded-full"></span>
             </button>
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center shadow-inner border border-white/30">
+            <div className="w-12 h-12 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center shadow-inner border border-white/40">
               <span className="text-lg font-bold text-slate-800">
                 {id?.toString().slice(0, 2)}
               </span>
             </div>
             <div>
-              <p className="text-slate-800 font-medium text-sm">สวัสดี,</p>
-              <h2 className="text-slate-900 font-bold text-xl">บัญชี {data.account_id}</h2>
+              <p className="text-slate-800 font-medium text-sm">ข้อมูลการเงินของ,</p>
+              <h2 className="text-slate-900 font-bold text-xl">คุณ {data.account_id}</h2>
             </div>
           </div>
         </div>
 
-        {/* Scrollable Content */}
-        <div className="flex-1 overflow-y-auto overflow-x-hidden pb-8 -mt-16 px-5 space-y-6 z-10 relative">
-          
-          {/* Main Account Balance Card */}
-          <div className="bg-white rounded-3xl p-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100">
-            <div className="text-center mb-6 mt-2">
-              <p className="text-slate-500 text-sm font-medium mb-1">ยอดเงินคงเหลือใช้ได้</p>
-              <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-                {formatter.format(availableBalance).replace('฿', '')} <span className="text-xl font-bold text-slate-500">฿</span>
-              </h1>
-            </div>
-            
-            {/* Income / Expense Summary (User Friendly) */}
-            <div className="flex justify-between items-center pt-5 border-t border-slate-100">
-              <div className="flex-1 flex flex-col items-center">
-                <div className="flex items-center gap-1.5 mb-1 text-emerald-600">
-                  <div className="w-6 h-6 rounded-full bg-emerald-50 flex items-center justify-center">
-                    <ArrowLeft className="w-3.5 h-3.5 rotate-45" />
-                  </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider">สัดส่วนเงินเข้า</span>
-                </div>
-                <p className="text-sm font-bold text-slate-800">{financial_summary.inflow_pct}%</p>
-              </div>
-              <div className="w-px h-10 bg-slate-100"></div>
-              <div className="flex-1 flex flex-col items-center">
-                <div className="flex items-center gap-1.5 mb-1 text-rose-500">
-                  <div className="w-6 h-6 rounded-full bg-rose-50 flex items-center justify-center">
-                    <ArrowLeft className="w-3.5 h-3.5 -rotate-[135deg]" />
-                  </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider">สัดส่วนเงินออก</span>
-                </div>
-                <p className="text-sm font-bold text-slate-800">{financial_summary.outflow_pct}%</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Member Tier Banner (Gamified Score) */}
-          <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-4 shadow-lg border border-slate-700 flex items-center justify-between text-white gap-2">
-            <div className="flex items-center gap-3 flex-1 min-w-0">
-              <div className="w-10 h-10 shrink-0 rounded-full bg-gradient-to-br from-amber-300 to-amber-500 flex items-center justify-center shadow-inner">
-                <Sparkles className="w-5 h-5 text-amber-900" />
-              </div>
-              <div className="flex-1 min-w-0">
-                <p className="text-[10px] text-slate-300 font-bold uppercase tracking-wider mb-0.5 truncate">สถานะบัญชีของคุณ</p>
-                <p className="text-sm font-bold text-amber-400 truncate">{data.transaction_score?.tier || 'สมาชิกทั่วไป'}</p>
-              </div>
-            </div>
-            <button 
-              onClick={() => setShowBenefits(true)}
-              className="text-[10px] shrink-0 font-bold bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-full transition-colors whitespace-nowrap">
-              ดูสิทธิประโยชน์
-            </button>
-          </div>
-
-          {/* Quick Actions Grid */}
-          <div className="grid grid-cols-4 gap-3 bg-white p-5 rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.02)] border border-slate-100">
-            <button className="flex flex-col items-center gap-2 group">
-              <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-700 group-hover:bg-amber-50 group-hover:text-amber-600 group-hover:scale-105 transition-all">
-                <Send className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] font-semibold text-slate-600">โอนเงิน</span>
-            </button>
-            <button className="flex flex-col items-center gap-2 group">
-              <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-700 group-hover:bg-amber-50 group-hover:text-amber-600 group-hover:scale-105 transition-all">
-                <Smartphone className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] font-semibold text-slate-600">เติมเงิน</span>
-            </button>
-            <button className="flex flex-col items-center gap-2 group">
-              <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-700 group-hover:bg-amber-50 group-hover:text-amber-600 group-hover:scale-105 transition-all">
-                <Receipt className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] font-semibold text-slate-600">จ่ายบิล</span>
-            </button>
-            <button className="flex flex-col items-center gap-2 group">
-              <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-700 group-hover:bg-amber-50 group-hover:text-amber-600 group-hover:scale-105 transition-all">
-                <ScanLine className="w-5 h-5" />
-              </div>
-              <span className="text-[11px] font-semibold text-slate-600">สแกนจ่าย</span>
-            </button>
-          </div>
-
-          {/* Smart Offers / Services (Hidden AI Output) */}
-          <div id="benefits-section" className="space-y-3 pt-2">
-            <div className="flex justify-between items-center px-1">
-              <h3 className="text-slate-800 font-bold text-sm">บริการแนะนำสำหรับคุณ</h3>
-              <button className="text-amber-600 text-xs font-bold hover:underline">ดูทั้งหมด</button>
-            </div>
-            
-            <div className="flex flex-col gap-3 w-full">
-              {(data.accessible_services || []).map((service: string, idx: number) => {
-                // Pick different icons and colors for variety
-                const icons = [Sparkles, PiggyBank, CreditCard];
-                const colors = ["bg-blue-50 text-blue-600", "bg-emerald-50 text-emerald-600", "bg-purple-50 text-purple-600"];
-                const Icon = icons[idx % icons.length];
-                const colorClass = colors[idx % colors.length];
-
-                return (
-                  <div key={idx} className="bg-white p-4 rounded-2xl flex items-center gap-4 shadow-sm border border-slate-100 hover:shadow-md transition-all cursor-pointer group">
-                    <div className={clsx("w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-colors", colorClass)}>
-                      <Icon className="w-5 h-5" />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-bold text-slate-800 truncate group-hover:text-amber-600 transition-colors">{service}</p>
-                      <p className="text-[11px] text-slate-500 mt-0.5">สิทธิพิเศษเฉพาะบัญชีคุณเท่านั้น</p>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-amber-500 shrink-0" />
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-
+        {/* Dynamic Content */}
+        <div className="flex-1 overflow-y-auto overflow-x-hidden pb-8 -mt-14 px-5 z-10 relative">
+          {activeTab === "home" && renderHomeTab()}
+          {activeTab === "account" && renderAccountTab()}
+          {activeTab === "product" && renderProductTab()}
         </div>
         
-        {/* Bottom Navigation Bar */}
+        {/* Bottom Navigation */}
         <div className="bg-white border-t border-slate-100 flex justify-around py-3 px-2 pb-8 shadow-[0_-10px_30px_rgb(0,0,0,0.04)] z-20">
-          <button className="flex flex-col items-center gap-1.5 text-amber-500 relative">
-            <div className="absolute -top-6 w-12 h-12 bg-[#FBBF24] rounded-full flex items-center justify-center shadow-lg border-4 border-white text-slate-900">
+          <button 
+            onClick={() => setActiveTab("home")}
+            className={clsx("flex flex-col items-center gap-1 transition-all pt-2 flex-1", activeTab === "home" ? "text-slate-900 scale-105" : "text-slate-400 hover:text-slate-600")}
+          >
+            <div className={clsx("p-2 rounded-xl transition-colors", activeTab === "home" && "bg-[#FBBF24]/20")}>
+              <PieChartIcon className="w-5 h-5" />
+            </div>
+            <span className={clsx("text-[10px]", activeTab === "home" ? "font-bold" : "font-semibold")}>หน้าหลัก</span>
+          </button>
+          <button 
+            onClick={() => setActiveTab("account")}
+            className={clsx("flex flex-col items-center gap-1 transition-all pt-2 flex-1", activeTab === "account" ? "text-slate-900 scale-105" : "text-slate-400 hover:text-slate-600")}
+          >
+             <div className={clsx("p-2 rounded-xl transition-colors", activeTab === "account" && "bg-[#FBBF24]/20")}>
+              <WalletCards className="w-5 h-5" />
+            </div>
+            <span className={clsx("text-[10px]", activeTab === "account" ? "font-bold" : "font-semibold")}>บัญชีของคุณ</span>
+          </button>
+          <button 
+            onClick={() => setActiveTab("product")}
+            className={clsx("flex flex-col items-center gap-1 transition-all pt-2 flex-1", activeTab === "product" ? "text-slate-900 scale-105" : "text-slate-400 hover:text-slate-600")}
+          >
+             <div className={clsx("p-2 rounded-xl transition-colors", activeTab === "product" && "bg-[#FBBF24]/20")}>
               <Activity className="w-5 h-5" />
             </div>
-            <span className="text-[10px] font-bold mt-5">หน้าหลัก</span>
-          </button>
-          <button className="flex flex-col items-center gap-1 text-slate-400 hover:text-slate-600 transition-colors pt-2">
-            <WalletCards className="w-5 h-5" />
-            <span className="text-[10px] font-semibold mt-1">บัญชี</span>
-          </button>
-          <button className="flex flex-col items-center gap-1 text-slate-400 hover:text-slate-600 transition-colors pt-2">
-            <ScanLine className="w-5 h-5" />
-            <span className="text-[10px] font-semibold mt-1">สแกน</span>
-          </button>
-          <button className="flex flex-col items-center gap-1 text-slate-400 hover:text-slate-600 transition-colors pt-2">
-            <Bell className="w-5 h-5" />
-            <span className="text-[10px] font-semibold mt-1">แจ้งเตือน</span>
+            <span className={clsx("text-[10px]", activeTab === "product" ? "font-bold" : "font-semibold")}>ผลิตภัณฑ์</span>
           </button>
         </div>
-
-        {/* Benefits Detail Modal (BottomSheet) */}
-        {showBenefits && (
-          <div className="absolute inset-0 z-[100] bg-black/60 flex items-end justify-center animate-in fade-in duration-200">
-            <div className="bg-slate-50 w-full h-[85%] rounded-t-3xl shadow-2xl flex flex-col animate-in slide-in-from-bottom-8 duration-300">
-              
-              {/* Modal Header */}
-              <div className="flex justify-between items-center p-5 border-b border-slate-200 bg-white rounded-t-3xl">
-                <h3 className="font-bold text-slate-900 text-lg flex items-center gap-2">
-                  <Gift className="w-5 h-5 text-amber-500" /> รายละเอียดสิทธิประโยชน์
-                </h3>
-                <button 
-                  onClick={() => setShowBenefits(false)} 
-                  className="w-8 h-8 flex items-center justify-center bg-slate-100 text-slate-500 rounded-full hover:bg-slate-200 transition-colors"
-                >
-                  <span className="font-bold text-sm">✕</span>
-                </button>
-              </div>
-
-              {/* Modal Content */}
-              <div className="p-5 overflow-y-auto flex-1 space-y-5">
-                <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-6 text-white text-center shadow-lg relative overflow-hidden">
-                  <div className="absolute -right-4 -top-4 opacity-10">
-                    <Sparkles className="w-24 h-24" />
-                  </div>
-                  <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest mb-2">สถานะบัญชีปัจจุบัน</p>
-                  <h4 className="text-2xl font-extrabold text-amber-400 mb-2 drop-shadow-md">
-                    {data.transaction_score?.tier || 'สมาชิกทั่วไป'}
-                  </h4>
-                  <p className="text-xs text-slate-300 leading-relaxed">
-                    ระบบ AI ได้ประเมินวินัยทางการเงินและสัดส่วนรายรับรายจ่ายของคุณให้อยู่ในเกณฑ์ <span className="font-bold text-white">ดีเยี่ยม</span> คุณจึงได้รับสิทธิ์ในการเข้าถึงบริการเหล่านี้
-                  </p>
-                </div>
-                
-                <div>
-                  <h4 className="font-bold text-slate-800 text-sm mb-3 px-1">บริการที่คุณได้รับสิทธิ์อนุมัติล่วงหน้า</h4>
-                  <div className="space-y-3">
-                    {(data.accessible_services || []).map((service: string, idx: number) => (
-                      <div key={idx} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 flex gap-3 group hover:border-amber-200 transition-colors">
-                        <div className="mt-1 shrink-0">
-                          <div className="w-8 h-8 rounded-full bg-amber-50 flex items-center justify-center">
-                            <Sparkles className="w-4 h-4 text-amber-500" />
-                          </div>
-                        </div>
-                        <div>
-                          <p className="text-sm font-bold text-slate-800 group-hover:text-amber-600 transition-colors">{service}</p>
-                          <p className="text-[11px] text-slate-500 mt-1.5 leading-relaxed">
-                            สิทธิพิเศษนี้คัดสรรมาเพื่อบัญชีของคุณโดยเฉพาะ สามารถกดใช้งานได้ทันทีโดยไม่ต้องยื่นเอกสารรายได้เพิ่มเติม
-                          </p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              
-              {/* Modal Footer */}
-              <div className="p-5 bg-white border-t border-slate-100">
-                <button 
-                  onClick={() => setShowBenefits(false)}
-                  className="w-full bg-[#FBBF24] hover:bg-amber-500 text-slate-900 font-bold py-3.5 rounded-xl shadow-sm transition-colors"
-                >
-                  รับทราบ
-                </button>
-              </div>
-
-            </div>
-          </div>
-        )}
 
       </div>
     </div>
