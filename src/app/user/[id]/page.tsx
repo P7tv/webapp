@@ -192,7 +192,11 @@ export default function KrungsriUserApp() {
         <ShieldCheck className="w-10 h-10 text-emerald-400" />
       </div>
 
-      <div className="space-y-5 pt-2 pb-4">
+      <div className="space-y-5 pt-4 pb-4">
+        <div className="mb-2">
+           <h2 className="text-lg font-extrabold text-[#112A5C]">บริการทางการเงินที่คุณสามารถเข้าถึงได้</h2>
+           <p className="text-xs text-slate-500 mt-1">คัดสรรผลิตภัณฑ์ที่เหมาะสมกับ Transaction Score ของคุณ</p>
+        </div>
         <div>
           <div className="flex justify-between items-end mb-3">
             <h3 className="font-bold text-slate-800 text-sm">หมวดการออมและการลงทุน (Saving)</h3>
@@ -316,29 +320,29 @@ export default function KrungsriUserApp() {
       <div className="w-full max-w-[400px] bg-[#f8f9fa] shadow-2xl relative overflow-hidden flex flex-col">
         
         {/* App Header */}
-        <div className="bg-[#FBBF24] pt-12 pb-24 px-6 rounded-b-[40px] relative z-0 shadow-sm">
+        <div className="bg-[#112A5C] pt-12 pb-24 px-6 rounded-b-[40px] relative z-0 shadow-sm">
           <div className="flex justify-between items-center mb-6">
             <button 
               onClick={() => router.push("/")}
-              className="text-slate-900 hover:bg-black/10 p-2 rounded-full transition-colors"
+              className="text-white hover:bg-white/10 p-2 rounded-full transition-colors"
             >
               <ArrowLeft className="w-6 h-6" />
             </button>
-            <div className="font-bold text-slate-900 text-lg tracking-tight">KMA Demo</div>
-            <button className="text-slate-900 hover:bg-black/10 p-2 rounded-full transition-colors relative">
+            <div className="font-bold text-white text-lg tracking-tight">App Demo</div>
+            <button className="text-white hover:bg-white/10 p-2 rounded-full transition-colors relative">
               <Bell className="w-6 h-6" />
             </button>
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center shadow-inner border border-white/40">
-              <span className="text-lg font-bold text-slate-800">
+            <div className="w-12 h-12 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center shadow-inner border border-white/20">
+              <span className="text-lg font-bold text-white">
                 {id?.toString().slice(0, 2)}
               </span>
             </div>
             <div>
-              <p className="text-slate-800 font-medium text-sm">ข้อมูลการเงินของ,</p>
-              <h2 className="text-slate-900 font-bold text-xl">คุณ {data.account_id}</h2>
+              <p className="text-blue-200 font-medium text-sm">ข้อมูลการเงินของ,</p>
+              <h2 className="text-white font-bold text-xl">คุณ {data.account_id}</h2>
             </div>
           </div>
         </div>
